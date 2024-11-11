@@ -2,7 +2,7 @@ package wearetests.tests.register;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import weAreWeb.core.core.WeAreBaseWeb;
+import wearetests.core.WeAreBaseWeb;
 
 public class RegisterTests extends WeAreBaseWeb {
     @Test

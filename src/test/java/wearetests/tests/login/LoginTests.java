@@ -4,9 +4,11 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import weAreWeb.core.core.WeAreBaseWeb;
+import wearetests.core.WeAreBaseWeb;
 
-import static weAreWeb.core.testdata.Users.*;
+import static testframework.core.BaseWebTest.driver;
+import static wearetests.testdata.Users.*;
+
 
 public class LoginTests extends WeAreBaseWeb {
 
