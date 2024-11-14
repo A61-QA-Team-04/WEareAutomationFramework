@@ -6,4 +6,6 @@ public class Users {
     public static final String INVALID_USER= "!@$!#@";
     public static final String VALID_PASSWORD="vald!d!@#12*";
     public static final String INVALID_PASSOWRD="12";
+    public static final String ADMIN_USER="taset@test.com";
+    public static final String ADMIN_PASSWORD="admin1";
 }

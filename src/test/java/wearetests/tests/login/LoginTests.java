@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import wearetests.core.WeAreBaseWeb;
 
 import static testframework.core.BaseWebTest.driver;
@@ -39,4 +40,18 @@ public class LoginTests extends WeAreBaseWeb {
         Assertions.assertEquals(message.getText(), "Wrong username or password.");
         Assertions.assertEquals(driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']")).getText(), "Wrong username or password.", "USER LOGGED IN WITH INVALID CREDENTIALS");
     }
+
+    @Test
+    public void logout_Test() {
+        homePage.clickSignInButton();
+        loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
+        homePage.clickLogoutButton();
+        By registerButton = homePage.getRegisterButtonLocator(); // Method to retrieve the locator
+        Assertions.assertTrue(
+                driverWait().until(ExpectedConditions.invisibilityOfElementLocated(registerButton)),
+                "Register button is still visible, logout might have failed"
+        );
+        Assertions.assertEquals(loginPage.getLoginText(), "Login Page", "User is not logged out");
+    }
 }
+

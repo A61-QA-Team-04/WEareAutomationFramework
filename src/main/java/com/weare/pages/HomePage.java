@@ -10,14 +10,28 @@ public class HomePage extends BaseWeArePage {
 
     private final By registerButton = By.xpath("//li[@class='nav-item cta mr-md-1']");
     private final By signInButton = By.xpath("//li[@class='nav-item cta cta cta-colored']");
+    private final By latestPostButton = By.xpath("//a[text()='Latest Posts']");
+    private final By logoutButton = By.xpath("//a[text()='LOGOUT']");
 
     public void clickRegisterButton() {
         driverWait().until(ExpectedConditions.elementToBeClickable(registerButton)).click();
     }
 
+    public void clickLogoutButton() {
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(logoutButton)).click();
+    }
+
+    public By getRegisterButtonLocator() {
+        return registerButton;
+    }
+
     public void clickSignInButton() {
         driverWait().until(ExpectedConditions.elementToBeClickable(signInButton)).click();
     }
+
+    public void clickLatestPostButton() {
+        driverWait().until(ExpectedConditions.elementToBeClickable(latestPostButton)).click();
+    } //WE are social media  WE are social media
 
 
 }
