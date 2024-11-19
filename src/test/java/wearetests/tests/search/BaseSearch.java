@@ -7,8 +7,11 @@ public class BaseSearch extends WeAreBaseWeb {
         homePage.searchForProfession(profession);
     }
 
+    public void searchForName(String name) {
+        homePage.searchForName(name);
+    }
+
     public void clickSearchButton() {
         homePage.clickSearchButton();
-
     }
 }

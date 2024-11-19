@@ -16,7 +16,6 @@ public class LoginTests extends BaseLogin {
     @DisplayName("Login with Valid Credentials")
 
     public void login_whenValidCredentials_AreInput() {
-        homePage.clickSignInButton();
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
         WebElement message = driver().findElement(By.xpath("//h1"));
         Assertions.assertEquals(message.getText(), "The Easiest Way to Hack the Crisis", "USER NOT LOGGED IN");
@@ -24,7 +23,6 @@ public class LoginTests extends BaseLogin {
 
     @Test
     public void login_whenInvalidCredentials_AreInput() {
-        homePage.clickSignInButton();
         loginPage.inputCredentials(INVALID_USER, INVALID_PASSOWRD);
         WebElement message = driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']"));
         Assertions.assertTrue(message.isDisplayed());
@@ -34,7 +32,6 @@ public class LoginTests extends BaseLogin {
 
     @Test
     public void login_whenBlankCredentials_AreInput() {
-        homePage.clickSignInButton();
         loginPage.inputCredentials("", "");
         WebElement message = driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']"));
         Assertions.assertTrue(message.isDisplayed());
@@ -44,7 +41,6 @@ public class LoginTests extends BaseLogin {
 
     @Test
     public void loggedIn_asUser_AdminPanelNotVisible() {
-        homePage.clickSignInButton();
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
         By adminPanelButtonLocator = By.xpath("//a[@href='/admin']");
         boolean isAdminPanelVisible = isElementVisible(adminPanelButtonLocator);
@@ -53,7 +49,6 @@ public class LoginTests extends BaseLogin {
 
     @Test
     public void loggedIn_asAdmin_AdminPanelVisible() {
-        homePage.clickSignInButton();
         loginPage.inputCredentials(ADMIN_USER, ADMIN_PASSWORD);
         By adminPanelButtonLocator = By.xpath("//a[@href='/admin']");
         boolean isAdminPanelVisible = isElementVisible(adminPanelButtonLocator);
@@ -62,7 +57,6 @@ public class LoginTests extends BaseLogin {
 
     @Test
     public void logout_Test() {
-        homePage.clickSignInButton();
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
         homePage.clickLogoutButton();
         By registerButton = homePage.getRegisterButtonLocator();

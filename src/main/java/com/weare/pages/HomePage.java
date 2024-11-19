@@ -16,9 +16,15 @@ public class HomePage extends BaseWeArePage {
     private final By searchForProfessionField = By.id("searchParam1");
     private final By searchButton = By.xpath("//button[@type='submit']");
     private final By adminPanelButton = By.xpath("//a[@href='/admin']");
+    private final By searchForNameField = By.id("searchParam2");
+    private final By myAccountButton = By.xpath("//a[contains(text(),'Personal')]");
 
     public void clickRegisterButton() {
         driverWait().until(ExpectedConditions.elementToBeClickable(registerButton)).click();
+    }
+
+    public void clickMyAccountButton() {
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(myAccountButton)).click();
     }
 
     public void clickLogoutButton() {
@@ -43,6 +49,10 @@ public class HomePage extends BaseWeArePage {
 
     public void searchForProfession(String profession) {
         driverWait().until(ExpectedConditions.visibilityOfElementLocated(searchForProfessionField)).sendKeys(profession);
+    }
+
+    public void searchForName(String name) {
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(searchForNameField)).sendKeys(name);
     }
 
     public void clickSearchButton() {

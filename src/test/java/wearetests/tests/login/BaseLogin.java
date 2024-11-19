@@ -1,5 +1,6 @@
 package wearetests.tests.login;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,12 @@ public class BaseLogin extends WeAreBaseWeb {
         } catch (NoSuchElementException e) {
             return false;
         }
+    }
+
+    @BeforeEach
+    public void login() {
+        homePage.clickSignInButton();
+
     }
 
 }

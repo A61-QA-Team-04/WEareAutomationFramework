@@ -11,10 +11,16 @@ public class ResultsPage extends BaseWeArePage {
         super("/search");
     }
 
-    private final By userNamesLocator = By.xpath("//h2[@class='mr-3 text-black']");
+    private final By USERNAMES = By.xpath("//h2[@class='mr-3 text-black']");
+    private final By NO_USER_FOUND_MESSAGE = By.xpath("//h3[@class='mb-3 bread']");
+
+    public String getErrorMessage() {
+        WebElement message = driver().findElement(NO_USER_FOUND_MESSAGE);
+        return message.getText();
+    }
 
     public List<String> getUserNames() {
-        List<WebElement> userElements = driver().findElements(userNamesLocator);
+        List<WebElement> userElements = driver().findElements(USERNAMES);
         List<String> userNames = new ArrayList<>();
 
         for (WebElement userElement : userElements) {

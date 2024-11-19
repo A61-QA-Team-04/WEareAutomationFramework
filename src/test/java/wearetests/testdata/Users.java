@@ -17,4 +17,5 @@ public class Users {
     public static final String RANDOM_EMAIL = RandomStringUtils.random(10, true, true) + "@yahoo.com";
     public static final String INVALID_EMAIL="asdasd";
 
+
 }
