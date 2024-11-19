@@ -20,14 +20,22 @@ public class BaseEdit extends WeAreBaseWeb {
         profilePage = new ProfilePage();
         homePage.clickSignInButton();
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
+        homePage.clickMyAccountButton();
+        profilePage.clickEditButton();
+
+
     }
 
     protected void updateProfile(String firstName, String lastName, String birthday) {
-        homePage.clickMyAccountButton();
-        profilePage.clickEditButton();
         profilePage.updateFirstName(firstName);
         profilePage.updateLastName(lastName);
         profilePage.updateBirthday(birthday);
+        profilePage.clickUpdateButton();
+        profilePage.clickProfileButton();
+    }
+
+    protected void updateEmail(String email) {
+        profilePage.updateEmail(email);
         profilePage.clickUpdateButton();
         profilePage.clickProfileButton();
     }

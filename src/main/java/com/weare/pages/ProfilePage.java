@@ -2,6 +2,7 @@ package com.weare.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ProfilePage extends BaseWeArePage {
@@ -16,6 +17,23 @@ public class ProfilePage extends BaseWeArePage {
     private final By SUBMIT_BUTTON = By.xpath("//button[@name='submit']");
     private final By PROFILE_BUTTON = By.id("list-front-list");
     private final By WELCOME_NAME = By.xpath("//h1");
+    private final By PERSONAL_INFO = By.id("home");
+    private final By EMAIL_FIELD = By.id("emailE");
+
+    public void updateEmail(String email) {
+        clearAndType(EMAIL_FIELD, email);
+    }
+
+    private void clearAndType(By locator, String value) {
+        WebElement element = driverWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
+        element.clear();
+        element.sendKeys(value);
+    }
+
+    public String getInfo() {
+        WebElement info = driver().findElement(PERSONAL_INFO);
+        return info.getText();
+    }
 
     public String getName() {
         WebElement name = driver().findElement(WELCOME_NAME);
@@ -31,17 +49,16 @@ public class ProfilePage extends BaseWeArePage {
     }
 
     public void updateFirstName(String firstName) {
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(FIRST_NAME_FIELD)).clear();
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(FIRST_NAME_FIELD)).sendKeys(firstName);
+        clearAndType(FIRST_NAME_FIELD, firstName);
     }
 
     public void updateBirthday(String birthday) {
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(BIRTHDAY_FIELD)).sendKeys(birthday);
+        clearAndType(BIRTHDAY_FIELD, birthday);
     }
 
     public void updateLastName(String lastname) {
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(LAST_NAME_FIELD)).clear();
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(LAST_NAME_FIELD)).sendKeys(lastname);
+        clearAndType(LAST_NAME_FIELD, lastname);
+
     }
 
 
