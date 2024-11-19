@@ -14,9 +14,7 @@ public class BaseLike extends WeAreBaseWeb {
     protected FeedsPage feedsPage;
 
     @BeforeEach
-    @Override
     public void setUp() {
-        super.setUp();
         feedsPage = new FeedsPage();
         driver().get(PropertiesManager.getConfigProperties().getProperty("weAreBaseUrl"));
         homePage.clickSignInButton();

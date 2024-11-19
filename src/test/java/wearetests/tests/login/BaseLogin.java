@@ -1,8 +1,20 @@
 package wearetests.tests.login;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebElement;
 import wearetests.core.WeAreBaseWeb;
 
-public class BaseLogin extends WeAreBaseWeb {
+import static testframework.DriverManager.getDriver;
 
+public class BaseLogin extends WeAreBaseWeb {
+    public boolean isElementVisible(By locator) {
+        try {
+            WebElement element = driver().findElement(locator);
+            return element.isDisplayed();
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
 
 }

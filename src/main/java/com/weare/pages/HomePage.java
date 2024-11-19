@@ -12,6 +12,10 @@ public class HomePage extends BaseWeArePage {
     private final By signInButton = By.xpath("//li[@class='nav-item cta cta cta-colored']");
     private final By latestPostButton = By.xpath("//a[text()='Latest Posts']");
     private final By logoutButton = By.xpath("//a[text()='LOGOUT']");
+    private final By addNewPostButton = By.xpath("//*[@id=\"ftco-nav\"]/ul/li[8]/a");
+    private final By searchForProfessionField = By.id("searchParam1");
+    private final By searchButton = By.xpath("//button[@type='submit']");
+    private final By adminPanelButton = By.xpath("//a[@href='/admin']");
 
     public void clickRegisterButton() {
         driverWait().until(ExpectedConditions.elementToBeClickable(registerButton)).click();
@@ -29,9 +33,19 @@ public class HomePage extends BaseWeArePage {
         driverWait().until(ExpectedConditions.elementToBeClickable(signInButton)).click();
     }
 
+    public void clickAddNewPostButton() {
+        driverWait().until(ExpectedConditions.elementToBeClickable(addNewPostButton)).click();
+    }
+
     public void clickLatestPostButton() {
         driverWait().until(ExpectedConditions.elementToBeClickable(latestPostButton)).click();
     } //WE are social media  WE are social media
 
+    public void searchForProfession(String profession) {
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(searchForProfessionField)).sendKeys(profession);
+    }
 
+    public void clickSearchButton() {
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(searchButton)).click();
+    }
 }
