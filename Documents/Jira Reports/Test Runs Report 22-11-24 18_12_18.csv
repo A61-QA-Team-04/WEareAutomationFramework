@@ -1,0 +1,66 @@
+﻿Key;Summary;Components;Priority;Test Execution;Test Environments;Test Plan;Test Type;TestRun Status;Executed By;Test Execution Fix Version/s;Revision;Started At;Finished At;Elapsed Time;Open;Closed
+WSN-64;[Connection Requests] Disconnect with user;;Medium;WSN-68;;;Manual;TO DO;;;;;;;;
+WSN-40;[Connection Requests] Connect with user;;High;WSN-68;;;Manual;TO DO;;;;;;;;
+WSN-41;[Connection Requests] Approving a connection request;;High;WSN-68;;;Manual;TO DO;;;;;;;;
+WSN-86;[Posting and Interaction] Delete a Comment ;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 11:08 AM;21/Nov/24 11:09 AM;28 secs;;
+WSN-87;[Posting and Interaction] Edit a Comment;;Medium;WSN-71;;;Manual;FAILED;Hristo Hristov;;;21/Nov/24 11:17 AM;21/Nov/24 11:23 PM;25 secs;;WSN-88
+WSN-10;[Posting and Interaction] Create a Comment Successfully;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 10:57 AM;21/Nov/24 10:57 AM;29 secs;;WSN-54,WSN-55
+WSN-11;[Posting and Interaction] Create a Comment with Blank Content;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 11:18 AM;21/Nov/24 11:19 AM;31 secs;;WSN-56
+WSN-21;[Posting and Interaction] Comment on the Post with a Long Message;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 11:40 AM;21/Nov/24 11:40 AM;16 secs;;WSN-57
+WSN-32;[Posting and Interaction] Set up How Many of the Newest Comments Should be visible under Each Post;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 11:41 AM;21/Nov/24 11:44 AM;3 mins;;WSN-52
+WSN-59;[Posting and Interaction] Attach a file (image, document, etc.) in the comment to a post ;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 01:31 PM;21/Nov/24 01:32 PM;39 secs;;WSN-58
+WSN-25;[Posting and Interaction] Create a Post successfully;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 01:33 PM;21/Nov/24 01:33 PM;16 secs;;WSN-53
+WSN-26;[Posting and Interaction] Create a Post with Text and Uploaded Picture more than 1MB;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 01:34 PM;21/Nov/24 01:35 PM;29 secs;;WSN-42,WSN-51
+WSN-27;[Posting and Interaction] Create a Post with Text and Uploaded Picture less than 1MB;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 01:53 PM;21/Nov/24 01:53 PM;30 secs;;
+WSN-28;[Posting and Interaction] Create a Post with an Uploaded Video less than 1MB;;High;WSN-71;;;Manual;FAILED;Hristo Hristov;;;21/Nov/24 01:54 PM;21/Nov/24 11:20 PM;23 secs;;WSN-62
+WSN-29;[Posting and Interaction] Create a Post with an Uploaded Song more than 1MB;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 01:55 PM;21/Nov/24 01:55 PM;23 secs;;WSN-49
+WSN-30;[Posting and Interaction] Create a Post with Too Long Text;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 01:58 PM;21/Nov/24 01:59 PM;22 secs;;WSN-57
+WSN-31;[Posting and Interaction] Create a Post with no Content;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:01 PM;21/Nov/24 02:01 PM;10 secs;;WSN-50
+WSN-33;[Posting and Interaction] Share a location;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:02 PM;21/Nov/24 02:02 PM;14 secs;;WSN-85
+WSN-34;[Posting and Interaction] Choose Visibility when Creating a Post;;Low;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:02 PM;21/Nov/24 02:03 PM;14 secs;;
+WSN-35;[Posting and Interaction] Create a Post with an Uploaded Song less than 1MB;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 01:56 PM;21/Nov/24 01:57 PM;43 secs;;WSN-63
+WSN-89;[Posting and Interaction] Edit a Post;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:03 PM;21/Nov/24 02:03 PM;20 secs;;WSN-90
+WSN-91;[Posting and Interaction] Delete a Post;;Medium;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:04 PM;21/Nov/24 02:04 PM;16 secs;;
+WSN-20;[Registration and Login] Authenticate with Valid Credentials;;Highest;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:05 PM;21/Nov/24 02:05 PM;13 secs;;
+WSN-45;[Registration and Login] Verify that a user cannot log in with an incorrect password;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:05 PM;21/Nov/24 02:05 PM;8 secs;;
+WSN-46;[Registration and Login] Verify that a user can log out successfully;;Highest;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:05 PM;21/Nov/24 02:06 PM;22 secs;;
+WSN-47;[Registration and Login] Verify that a user cannot log in with a non-existent username;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:06 PM;21/Nov/24 02:06 PM;16 secs;;
+WSN-13;[Posting and Interaction] Create a Comment When the User is not Logged in;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 11:38 AM;21/Nov/24 11:38 AM;11 secs;;
+WSN-103;[Registration and Login] Register with password less than 6 symbols.;;Medium;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:15 PM;21/Nov/24 02:16 PM;42 secs;;
+WSN-82;[Registration and Login] Register with already Existing Email.;;Highest;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:17 PM;21/Nov/24 02:17 PM;30 secs;;WSN-102
+WSN-81;[Registration and Login] Register with password without special symbol.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:19 PM;21/Nov/24 02:20 PM;37 secs;;WSN-101
+WSN-80;[Registration and Login] Register with password without digit.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:21 PM;21/Nov/24 02:21 PM;40 secs;;WSN-100
+WSN-79;[Registration and Login] Register with password without capital letter.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:22 PM;21/Nov/24 02:23 PM;48 secs;;WSN-99
+WSN-78;[Registration and Login] Register with password between 6 and 8 symbols.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:23 PM;21/Nov/24 02:24 PM;42 secs;;WSN-98
+WSN-77;[Registration and Login] Register with username more than 20 symbols.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:25 PM;21/Nov/24 02:25 PM;31 secs;;WSN-97
+WSN-76;[Registration and Login] Register with username less than 2 symbols.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 02:26 PM;22/Nov/24 08:08 AM;35 secs;;WSN-96
+WSN-75;[Registration and Login] Register user with invalid Email.;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:31 PM;21/Nov/24 02:32 PM;32 secs;;
+WSN-74;[Registration and Login] Register user with not matching passwords.;;High;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:32 PM;21/Nov/24 02:32 PM;25 secs;;
+WSN-73;[Registration and Login] Register with already Existing User.;;Highest;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:33 PM;21/Nov/24 02:33 PM;19 secs;;
+WSN-72;[Registration and Login] Register with valid credentials;;Highest;WSN-71;;;Manual;PASSED;Mina;;;21/Nov/24 02:33 PM;21/Nov/24 02:34 PM;25 secs;;
+WSN-108;[Accessibility and Search] Check search functionality by name and profession as a logged in user.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 03:43 PM;21/Nov/24 03:43 PM;12 secs;;WSN-109
+WSN-107;[Accessibility and Search] Check search functionality by email and profession as a logged in user.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 03:44 PM;21/Nov/24 03:44 PM;10 secs;;WSN-110
+WSN-106;[Accessibility and Search] Check search functionality by email as anonymous as a logged in user.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 03:45 PM;21/Nov/24 03:45 PM;20 secs;;WSN-111
+WSN-94;[Accessibility and Search] Check search functionality by name and profession as anonymous user.;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 03:45 PM;21/Nov/24 03:45 PM;31 secs;;WSN-114
+WSN-93;[Accessibility and Search] Check search functionality by email and profession as anonymous user.;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 03:46 PM;21/Nov/24 03:46 PM;18 secs;;WSN-113
+WSN-92;[Accessibility and Search] Check search functionality by email as anonymous user.;;High;WSN-71;;;Manual;FAILED;Mina;;;21/Nov/24 03:46 PM;21/Nov/24 03:46 PM;18 secs;;WSN-112
+WSN-65;[Accessibility and Search] Check the visibility of links for login and registration forms, profile search, and a public feed.;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 07:43 PM;21/Nov/24 07:43 PM;52 secs;;
+WSN-70;[Accessibility and Search] Check search functionality by profile name as anonymous user.;;Medium;WSN-71;;;Manual;FAILED;Hristo Hristov;;;21/Nov/24 07:45 PM;21/Nov/24 07:46 PM;1 mins;;
+WSN-122;[Admin Controls] Check admin can delete post.;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 09:11 PM;21/Nov/24 09:11 PM;7 secs;;
+WSN-121;[Admin Controls] Check admin can edit post.;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 09:12 PM;21/Nov/24 09:12 PM;8 secs;;
+WSN-120;[Admin Controls] Check admin can delete coment.;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 09:13 PM;21/Nov/24 09:13 PM;8 secs;;
+WSN-118;[Admin Controls] Check admin can edit coment.;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 09:13 PM;21/Nov/24 09:13 PM;8 secs;;
+WSN-117;[Admin Controls] Check admin can delеte users profile.;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 09:15 PM;21/Nov/24 09:15 PM;2 secs;;
+WSN-95;[Admin Controls] Check admin can edit users profile.;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 09:15 PM;21/Nov/24 09:15 PM;26 secs;;
+WSN-64;[Connection Requests] Disconnect with user;;Medium;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 10:47 PM;21/Nov/24 10:47 PM;7 secs;;
+WSN-40;[Connection Requests] Connect with user;;High;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 10:43 PM;21/Nov/24 10:43 PM;14 secs;;
+WSN-41;[Connection Requests] Approving a connection request;;High;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 10:45 PM;21/Nov/24 10:45 PM;11 secs;;
+WSN-125;[Profile Management] Verify changing birthday  function.;;Medium;WSN-71;;;Manual;PASSED;Vladislav Adamov;;;21/Nov/24 10:44 PM;21/Nov/24 10:44 PM;21 secs;;
+WSN-124;[Profile Management] Verify changing email function.;;Medium;WSN-71;;;Manual;PASSED;Vladislav Adamov;;;21/Nov/24 10:44 PM;21/Nov/24 10:44 PM;22 secs;;
+WSN-84;[Profile Management] Verify changing name function.;;Medium;WSN-71;;;Manual;PASSED;Vladislav Adamov;;;21/Nov/24 10:43 PM;21/Nov/24 10:43 PM;30 secs;;
+WSN-116;[Profile Management] Verify changing profile picture function.;;Medium;WSN-71;;;Manual;PASSED;Vladislav Adamov;;;21/Nov/24 11:01 PM;21/Nov/24 11:02 PM;33 secs;;
+WSN-36;[Posting and Interaction] Like a post;;Low;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 11:02 PM;21/Nov/24 11:02 PM;4 secs;;
+WSN-37;[Posting and Interaction] Dislike a post;;Low;WSN-71;;;Manual;PASSED;Hristo Hristov;;;21/Nov/24 11:03 PM;21/Nov/24 11:03 PM;3 secs;;
+WSN-38;[Posting and Interaction] Visibility of personal post feed;;Medium;WSN-71;;;Manual;FAILED;Hristo Hristov;;;21/Nov/24 11:05 PM;21/Nov/24 11:05 PM;0 millisec;;
+WSN-127;[Profile Management] Verify changing nationality function.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;22/Nov/24 08:37 AM;22/Nov/24 08:38 AM;15 secs;;WSN-128
+WSN-119;[Profile Management] Verify changing profile picture visibility function.;;Medium;WSN-71;;;Manual;FAILED;Mina;;;22/Nov/24 08:42 AM;22/Nov/24 08:43 AM;1 mins;;WSN-126
