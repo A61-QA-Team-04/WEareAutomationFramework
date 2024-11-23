@@ -10,6 +10,7 @@ public class Users {
     public static final String VALID_USER_D = "validUserD";
     public static final String VALID_USER_E = "validUserE";
     public static final String INVALID_USER = "!@$!#@";
+    public static final String NON_EXISTING_USERNAME = "nonExistingUser";
     public static final String ONE_SYMBOL_USER = "V";
     public static final String TWENTY_SYMBOLS_USER = "validUservalidUservalidUser";
     public static final String VALID_PASSWORD = "Vald!d!@#12*";

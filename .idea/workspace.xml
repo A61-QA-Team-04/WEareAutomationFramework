@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="" />
+    <list default="true" id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     "JUnit.RegisterTests.username_more_than_20_symbols_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Hristo",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -171,7 +174,6 @@
       <workItem from="1732395814917" duration="26000" />
       <workItem from="1732395934169" duration="5000" />
       <workItem from="1732396003990" duration="503000" />
-      <workItem from="1732397395054" duration="12000" />
     </task>
     <servers />
   </component>
