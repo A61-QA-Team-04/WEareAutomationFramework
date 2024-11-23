@@ -57,7 +57,7 @@ public class RegisterPage extends BaseWeArePage {
     }
     public void fillExistingUserDetails() {
         String existingUsername = "validUser"; // Replace with actual username
-        String existingEmail = "existing@example.com"; // Replace with actual email
+        String existingEmail = "vlvl@vlvl123.com"; // Replace with actual email
         String existingPassword = "Vald!d!@#12*"; // Replace with actual password
         String existingConfirmPassword = "Vald!d!@#12*"; // Same as password for confirmation
 
