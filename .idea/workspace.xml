@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3e1d2f5-8435-42ea-9c10-dd89323a7a42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/wearedb.xEPrSA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/core/WeAreBaseWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/core/WeAreBaseWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/ProfilePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2pGa51VyrzqI6vUPermmRBe0hXy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,14 +26,94 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.EditProfile.executor": "Run",
+    "JUnit.EditProfile.update_Email_Test.executor": "Run",
+    "JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor": "Run",
+    "JUnit.LoginTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging Test",
+    "git-widget-placeholder": "Test",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.EditProfile.update_Email_Test">
+    <configuration name="EditProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.profile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.profile" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.profile.EditProfile" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditProfile.update_Email_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.profile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.profile" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.profile.EditProfile" />
+      <option name="METHOD_NAME" value="update_Email_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditProfile.update_FirstName_LastName_BirthDay_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.profile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.profile" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.profile.EditProfile" />
+      <option name="METHOD_NAME" value="update_FirstName_LastName_BirthDay_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.login" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.login.LoginTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EditProfile.update_Email_Test" />
+        <item itemvalue="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test" />
+        <item itemvalue="JUnit.EditProfile" />
+        <item itemvalue="JUnit.LoginTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,10 +131,16 @@
       <option name="presentableId" value="Default" />
       <updated>1732394678958</updated>
       <workItem from="1732394680539" duration="90000" />
+      <workItem from="1732394841867" duration="874000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/workspace_xml$EditProfile.ic" NAME="EditProfile Coverage Results" MODIFIED="1732394933526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>wearetests.tests.profile.*</FILTER>
+    </SUITE>
   </component>
 </project>
