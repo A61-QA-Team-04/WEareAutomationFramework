@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -36,6 +42,8 @@
     "JUnit.RegisterTests.password_without_special_symbol_Test.executor": "Run",
     "JUnit.RegisterTests.username_less_than_2_symbols_Test.executor": "Run",
     "JUnit.RegisterTests.username_more_than_20_symbols_Test.executor": "Run",
+    "JUnit.RegisterTests.valid_Registration_Admin_Test.executor": "Run",
+    "JUnit.RegisterTests.valid_Registration_Test.executor": "Run",
     "JUnit.SearchTests.search_for_not_found_user_Test.executor": "Run",
     "JUnit.SearchTests.search_for_users_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,20 +57,57 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegisterTests.valid_Registration_Test">
-    <configuration name="LoginTests.login_whenValidCredentials_AreInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegisterTests.password_without_special_symbol_Test">
+    <configuration name="RegisterTests.password_less_than_8_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.login.*" />
+          <option name="PATTERN" value="wearetests.tests.register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.login" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.login.LoginTests" />
-      <option name="METHOD_NAME" value="login_whenValidCredentials_AreInput" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
+      <option name="METHOD_NAME" value="password_less_than_8_symbols_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTests.password_without_capital_letter_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
+      <option name="METHOD_NAME" value="password_without_capital_letter_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTests.password_without_digit_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
+      <option name="METHOD_NAME" value="password_without_digit_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.valid_Registration_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTests.username_more_than_20_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -94,39 +139,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="wearetests.tests.register" />
       <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="valid_Registration_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.search_for_not_found_user_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.search" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.search.SearchTests" />
-      <option name="METHOD_NAME" value="search_for_not_found_user_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.search_for_users_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.search" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.search.SearchTests" />
-      <option name="METHOD_NAME" value="search_for_users_Test" />
+      <option name="METHOD_NAME" value="username_more_than_20_symbols_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegisterTests.valid_Registration_Test" />
-        <item itemvalue="JUnit.LoginTests.login_whenValidCredentials_AreInput" />
-        <item itemvalue="JUnit.SearchTests.search_for_not_found_user_Test" />
-        <item itemvalue="JUnit.SearchTests.search_for_users_Test" />
         <item itemvalue="JUnit.RegisterTests.password_without_special_symbol_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_without_digit_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_without_capital_letter_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_less_than_8_symbols_Test" />
+        <item itemvalue="JUnit.RegisterTests.username_more_than_20_symbols_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +185,7 @@
       <workItem from="1732354533333" duration="82000" />
       <workItem from="1732354748659" duration="4506000" />
       <workItem from="1732374353681" duration="944000" />
+      <workItem from="1732381429346" duration="4216000" />
     </task>
     <servers />
   </component>

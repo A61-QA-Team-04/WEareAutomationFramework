@@ -18,7 +18,7 @@ public class Users {
     public static final String NO_CAPITAL_LETTER_PASSWORD = "vald!d!@#12*";
     public static final String NO_DIGIT_PASSWORD = "Vald!d!@#*";
     public static final String NO_SPECIAL_SYMBOL_PASSWORD = "Vaaldd12";
-    public static final String ADMIN_USER = "Admin";
+    public static final String ADMIN_USER = "testAdmin";
     public static final String ADMIN_PASSWORD = "Admin-24";
     public static final String RANDOM_USERNAME = RandomStringUtils.random(10, true, false);
     public static final String RANDOM_PASSWORD = RandomStringUtils.random(10, true, true);
