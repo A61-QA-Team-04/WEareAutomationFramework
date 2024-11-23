@@ -20,6 +20,15 @@ public class RegisterTests extends WeAreBaseWeb {
     }
 
     @Test
+    public void valid_Registration_Admin_Test() {
+        homePage.clickRegisterButton();
+        registerPage.fillAllFields(ADMIN_USER, RANDOM_EMAIL, ADMIN_PASSWORD, ADMIN_PASSWORD);
+        registerPage.selectCategory("Doctor");
+        registerPage.clickSubmitButton();
+        Assertions.assertEquals(driver().getTitle(), "Successful Registration", "ERROR REGISTERING");
+    }
+
+    @Test
     public void passowrds_Not_Matching_Test() {
         homePage.clickRegisterButton();
         registerPage.fillAllFields(RANDOM_USERNAME, RANDOM_EMAIL, PASSWORD, "123123*@(A");
