@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" afterDir="false" />
-    </list>
+    <list default="true" id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +13,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -29,86 +21,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.LoginTests.executor": "Run",
-    "JUnit.LoginTests.login_whenInvalidCredentials_AreInput.executor": "Run",
-    "JUnit.LoginTests.login_whenValidCredentials_AreInput.executor": "Run",
-    "JUnit.RegisterTests.Random_Username_Test.executor": "Run",
-    "JUnit.RegisterTests.already_Existing_User_Test.executor": "Run",
-    "JUnit.RegisterTests.invalid_Email_Test.executor": "Run",
-    "JUnit.RegisterTests.passowrds_Not_Matching_Test.executor": "Run",
-    "JUnit.RegisterTests.password_less_than_8_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_capital_letter_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_digit_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_special_symbol_Test.executor": "Run",
-    "JUnit.RegisterTests.username_less_than_2_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.username_more_than_20_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.valid_Registration_Admin_Test.executor": "Run",
-    "JUnit.RegisterTests.valid_Registration_Test.executor": "Run",
-    "JUnit.SearchTests.search_for_not_found_user_Test.executor": "Run",
-    "JUnit.SearchTests.search_for_users_Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Hristo",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/Freimwork/Mina/WEareAutomationFramework-TestMina2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
-    ]
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.RegisterTests.Random_Username_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.already_Existing_User_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.invalid_Email_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.passowrds_Not_Matching_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_less_than_8_symbols_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_without_capital_letter_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_without_digit_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_without_special_symbol_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.username_less_than_2_symbols_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.username_more_than_20_symbols_Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Test&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.LoginTests">
-    <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.RegisterTests.password_without_special_symbol_Test">
+    <configuration name="RegisterTests.password_less_than_8_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.login.*" />
+          <option name="PATTERN" value="wearetests.tests.register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.login" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.login.LoginTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.login_whenInvalidCredentials_AreInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.login" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.login.LoginTests" />
-      <option name="METHOD_NAME" value="login_whenInvalidCredentials_AreInput" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
+      <option name="METHOD_NAME" value="password_less_than_8_symbols_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.login_whenValidCredentials_AreInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTests.password_without_capital_letter_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.login.*" />
+          <option name="PATTERN" value="wearetests.tests.register.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.login" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.login.LoginTests" />
-      <option name="METHOD_NAME" value="login_whenValidCredentials_AreInput" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
+      <option name="METHOD_NAME" value="password_without_capital_letter_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,6 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterTests.username_more_than_20_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
+      <option name="METHOD_NAME" value="username_more_than_20_symbols_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="WEareAutomationFramework" />
       <method v="2">
@@ -159,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTests" />
-        <item itemvalue="JUnit.LoginTests.login_whenInvalidCredentials_AreInput" />
-        <item itemvalue="JUnit.LoginTests.login_whenValidCredentials_AreInput" />
         <item itemvalue="JUnit.RegisterTests.password_without_special_symbol_Test" />
         <item itemvalue="JUnit.RegisterTests.password_without_digit_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_without_capital_letter_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_less_than_8_symbols_Test" />
+        <item itemvalue="JUnit.RegisterTests.username_more_than_20_symbols_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -185,9 +165,8 @@
       <updated>1732354532085</updated>
       <workItem from="1732354533333" duration="82000" />
       <workItem from="1732354748659" duration="4506000" />
-      <workItem from="1732374353681" duration="944000" />
-      <workItem from="1732381429346" duration="4578000" />
-      <workItem from="1732386031773" duration="1018000" />
+      <workItem from="1732394230577" duration="13000" />
+      <workItem from="1732394388511" duration="44000" />
     </task>
     <servers />
   </component>
