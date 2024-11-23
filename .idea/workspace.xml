@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="" />
+    <list default="true" id="f3e1d2f5-8435-42ea-9c10-dd89323a7a42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e134804b-6cea-49d9-927a-c45beda9e7d0/storage_v2/_src_/schema/wearedb.xEPrSA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/core/WeAreBaseWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/core/WeAreBaseWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,140 +33,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2pFGhqzxOg3QNKjVlX6Swu2tFNe" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2pGa51VyrzqI6vUPermmRBe0hXy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.RegisterTests.Random_Username_Test.executor": "Run",
-    "JUnit.RegisterTests.already_Existing_User_Test.executor": "Run",
-    "JUnit.RegisterTests.invalid_Email_Test.executor": "Run",
-    "JUnit.RegisterTests.passowrds_Not_Matching_Test.executor": "Run",
-    "JUnit.RegisterTests.password_less_than_8_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_capital_letter_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_digit_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_special_symbol_Test.executor": "Run",
-    "JUnit.RegisterTests.username_less_than_2_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.username_more_than_20_symbols_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Test",
+    "git-widget-placeholder": "Merging Test",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegisterTests.password_without_special_symbol_Test">
-    <configuration name="RegisterTests.password_less_than_8_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_less_than_8_symbols_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTests.password_without_capital_letter_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_without_capital_letter_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTests.password_without_digit_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_without_digit_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTests.password_without_special_symbol_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_without_special_symbol_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTests.username_more_than_20_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="username_more_than_20_symbols_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="WEareAutomationFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="WEareAutomationFramework" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RegisterTests.password_without_special_symbol_Test" />
-        <item itemvalue="JUnit.RegisterTests.password_without_digit_Test" />
-        <item itemvalue="JUnit.RegisterTests.password_without_capital_letter_Test" />
-        <item itemvalue="JUnit.RegisterTests.password_less_than_8_symbols_Test" />
-        <item itemvalue="JUnit.RegisterTests.username_more_than_20_symbols_Test" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -158,29 +62,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="" />
-      <created>1732354532085</created>
+      <changelist id="f3e1d2f5-8435-42ea-9c10-dd89323a7a42" name="Changes" comment="" />
+      <created>1732394678958</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1732354532085</updated>
-      <workItem from="1732354533333" duration="82000" />
-      <workItem from="1732354748659" duration="4506000" />
-      <workItem from="1732394628273" duration="22000" />
+      <updated>1732394678958</updated>
+      <workItem from="1732394680539" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
