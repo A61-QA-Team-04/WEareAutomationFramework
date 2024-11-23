@@ -66,6 +66,42 @@ public class RegisterTests extends WeAreBaseWeb {
     }
 
     @Test
+    public void password_less_than_8_symbols_Test() {
+        homePage.clickRegisterButton();
+        registerPage.fillAllFields(VALID_USER_B, VALID_EMAIL, LESS_THAN_EIGHT_SYMBOLS_PASSOWRD, LESS_THAN_EIGHT_SYMBOLS_PASSOWRD);
+        registerPage.selectCategory("Doctor");
+        registerPage.clickSubmitButton();
+        Assertions.assertEquals(registerPage.getErrorMessage(), "Password must be more than 8 symbols.", "message not as expected for invalid username");
+    }
+
+    @Test
+    public void password_without_capital_letter_Test() {
+        homePage.clickRegisterButton();
+        registerPage.fillAllFields(VALID_USER_C, VALID_EMAIL, NO_CAPITAL_LETTER_PASSWORD, NO_CAPITAL_LETTER_PASSWORD);
+        registerPage.selectCategory("Doctor");
+        registerPage.clickSubmitButton();
+        Assertions.assertEquals(registerPage.getErrorMessage(), "Password should contain capital letter.", "message not as expected for invalid username");
+    }
+
+    @Test
+    public void password_without_digit_Test() {
+        homePage.clickRegisterButton();
+        registerPage.fillAllFields(VALID_USER_D, VALID_EMAIL, NO_DIGIT_PASSWORD, NO_DIGIT_PASSWORD);
+        registerPage.selectCategory("Doctor");
+        registerPage.clickSubmitButton();
+        Assertions.assertEquals(registerPage.getErrorMessage(), "Password should contain a digit.", "message not as expected for invalid username");
+    }
+
+    @Test
+    public void password_without_special_symbol_Test() {
+        homePage.clickRegisterButton();
+        registerPage.fillAllFields(VALID_USER_E, VALID_EMAIL, NO_SPECIAL_SYMBOL_PASSWORD, NO_SPECIAL_SYMBOL_PASSWORD);
+        registerPage.selectCategory("Doctor");
+        registerPage.clickSubmitButton();
+        Assertions.assertEquals(registerPage.getErrorMessage(), "Password should contain a special symbol.", "message not as expected for invalid username");
+    }
+
+    @Test
     public void valid_Registration_Admin_Test() {
         homePage.clickRegisterButton();
         registerPage.fillAllFields(ADMIN_USER, RANDOM_EMAIL, ADMIN_PASSWORD, ADMIN_PASSWORD);

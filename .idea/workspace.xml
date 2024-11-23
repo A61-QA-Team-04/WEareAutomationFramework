@@ -8,10 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weare/pages/RegisterPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/Users.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" afterDir="false" />
     </list>
@@ -37,7 +35,12 @@
     "JUnit.RegisterTests.already_Existing_User_Test.executor": "Run",
     "JUnit.RegisterTests.invalid_Email_Test.executor": "Run",
     "JUnit.RegisterTests.passowrds_Not_Matching_Test.executor": "Run",
+    "JUnit.RegisterTests.password_less_than_8_symbols_Test.executor": "Run",
+    "JUnit.RegisterTests.password_without_capital_letter_Test.executor": "Run",
+    "JUnit.RegisterTests.password_without_digit_Test.executor": "Run",
+    "JUnit.RegisterTests.password_without_special_symbol_Test.executor": "Run",
     "JUnit.RegisterTests.username_less_than_2_symbols_Test.executor": "Run",
+    "JUnit.RegisterTests.username_more_than_20_symbols_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Hristo",
@@ -50,8 +53,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegisterTests.username_more_than_20_symbols_Test">
-    <configuration name="RegisterTests.Random_Username_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RegisterTests.password_without_special_symbol_Test">
+    <configuration name="RegisterTests.password_less_than_8_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -61,13 +64,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="wearetests.tests.register" />
       <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="Random_Username_Test" />
+      <option name="METHOD_NAME" value="password_less_than_8_symbols_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.invalid_Email_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTests.password_without_capital_letter_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -77,13 +80,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="wearetests.tests.register" />
       <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="invalid_Email_Test" />
+      <option name="METHOD_NAME" value="password_without_capital_letter_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.passowrds_Not_Matching_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTests.password_without_digit_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +96,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="wearetests.tests.register" />
       <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="passowrds_Not_Matching_Test" />
+      <option name="METHOD_NAME" value="password_without_digit_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.username_less_than_2_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTests.password_without_special_symbol_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="wearetests.tests.register" />
       <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="username_less_than_2_symbols_Test" />
+      <option name="METHOD_NAME" value="password_without_special_symbol_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegisterTests.password_without_special_symbol_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_without_digit_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_without_capital_letter_Test" />
+        <item itemvalue="JUnit.RegisterTests.password_less_than_8_symbols_Test" />
         <item itemvalue="JUnit.RegisterTests.username_more_than_20_symbols_Test" />
-        <item itemvalue="JUnit.RegisterTests.username_less_than_2_symbols_Test" />
-        <item itemvalue="JUnit.RegisterTests.Random_Username_Test" />
-        <item itemvalue="JUnit.RegisterTests.invalid_Email_Test" />
-        <item itemvalue="JUnit.RegisterTests.passowrds_Not_Matching_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732354532085</updated>
       <workItem from="1732354533333" duration="82000" />
-      <workItem from="1732354748659" duration="1766000" />
+      <workItem from="1732354748659" duration="4506000" />
     </task>
     <servers />
   </component>
