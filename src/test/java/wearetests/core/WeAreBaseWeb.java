@@ -51,7 +51,7 @@ public class WeAreBaseWeb extends BaseWebTest {
             ExtentManager.getTest().fail("Test failed due to some condition in the browser");
         }
 
-     //   driver().close();
+        driver().close();
     }
 
     @AfterAll
