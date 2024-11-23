@@ -23,6 +23,15 @@ public class LoginTests extends BaseLogin {
     }
 
     @Test
+    public void login_with_nonexisting_username_Test() {
+        loginPage.inputCredentials(NON_EXISTING_USERNAME, VALID_PASSWORD);
+        WebElement message = driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']"));
+        Assertions.assertTrue(message.isDisplayed());
+        Assertions.assertEquals(message.getText(), "Wrong username or password.");
+        Assertions.assertEquals(driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']")).getText(), "Wrong username or password.", "USER LOGGED IN WITH INVALID CREDENTIALS");
+    }
+
+    @Test
     public void login_whenInvalidCredentials_AreInput() {
         loginPage.inputCredentials(INVALID_USER, INVALID_PASSOWRD);
         WebElement message = driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']"));
