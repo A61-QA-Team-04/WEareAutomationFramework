@@ -21,30 +21,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.RegisterTests.Random_Username_Test.executor": "Run",
-    "JUnit.RegisterTests.already_Existing_User_Test.executor": "Run",
-    "JUnit.RegisterTests.invalid_Email_Test.executor": "Run",
-    "JUnit.RegisterTests.passowrds_Not_Matching_Test.executor": "Run",
-    "JUnit.RegisterTests.password_less_than_8_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_capital_letter_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_digit_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_special_symbol_Test.executor": "Run",
-    "JUnit.RegisterTests.username_less_than_2_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.username_more_than_20_symbols_Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Hristo",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.RegisterTests.Random_Username_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.already_Existing_User_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.invalid_Email_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.passowrds_Not_Matching_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_less_than_8_symbols_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_without_capital_letter_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_without_digit_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.password_without_special_symbol_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.username_less_than_2_symbols_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RegisterTests.username_more_than_20_symbols_Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Hristo&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.RegisterTests.password_without_special_symbol_Test">
     <configuration name="RegisterTests.password_less_than_8_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
@@ -168,6 +168,7 @@
       <workItem from="1732394230577" duration="13000" />
       <workItem from="1732394388511" duration="44000" />
       <workItem from="1732395814917" duration="26000" />
+      <workItem from="1732395934169" duration="5000" />
     </task>
     <servers />
   </component>
