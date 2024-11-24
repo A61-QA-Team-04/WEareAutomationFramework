@@ -23,9 +23,8 @@ public class CreateAPostTests extends BaseCreateAPost {
         createAPostPage.createNewPost(POST_TEXT);
         createAPostPage.selectPostVisibility("Private post");
         createAPostPage.clickSavePostButton();
-
-        String postContent = createAPostPage.getPostText();
-        Assertions.assertTrue(postContent.contains(POST_TEXT), "Post content does not match expected value.");
+        Assertions.assertTrue(createAPostPage.isPostConfirmationDisplayed(POST_TEXT),
+                "Post content does not match expected value.");
     }
 
     @Test
@@ -35,6 +34,8 @@ public class CreateAPostTests extends BaseCreateAPost {
         createAPostPage.clickChooseFileButtonSong();
         createAPostPage.clickSavePostButton();
 
+        Assertions.assertTrue(createAPostPage.isPostConfirmationDisplayed(POST_TEXT_B),
+                "Post content does not match expected value.");
         String postContent = createAPostPage.getSongName();
         Assertions.assertTrue(postContent.contains(SONG_NAME), "Audio file is not uploaded.");
     }

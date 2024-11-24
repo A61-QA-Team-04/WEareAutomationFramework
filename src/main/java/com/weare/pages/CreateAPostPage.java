@@ -18,10 +18,20 @@ public class CreateAPostPage extends BaseWeArePage{
 private final By postVisibilityDropdown = By.id("StringListId");
 private final By postContentBox = By.id("message");
 private final By savePostButton = By.xpath("//input[@value='Save post']");
-private final By postConfirmationText = By.xpath("//p[text()='A new testing post for the WEare social network.']");
 private final By songConfirmationText = By.xpath("//p[text()='file_example_MP3_700KB.mp3']");
 private final By chooseFileButton = By.xpath("//*[@id=\"imagefile\"]");
+private final String postConfirmationText = "//p[text()='%s']";
 
+
+    public By getPostConfirmationText(String topic) {
+        String dynamicXPath = String.format(postConfirmationText, topic);
+        return By.xpath(dynamicXPath);
+    }
+    public boolean isPostConfirmationDisplayed(String postText) {
+        WebElement confirmationElement = driverWait().until(
+                ExpectedConditions.visibilityOfElementLocated(getPostConfirmationText(postText)));
+        return confirmationElement.getText().contains(postText);
+    }
 
 public void selectPostVisibility(String postVisibility) {
     WebElement visibilityOption = driverWait().until(ExpectedConditions.visibilityOfElementLocated(postVisibilityDropdown));
@@ -47,11 +57,6 @@ public void clickSavePostButton() {
     public void addNewPost(String postContent) {
     createNewPost(postContent);
 }
-
-    public String getPostText() {
-        WebElement postText = driverWait().until(ExpectedConditions.visibilityOfElementLocated(postConfirmationText));
-        return postText.getText();
-    }
 
     public String getSongName() {
         WebElement postText = driverWait().until(ExpectedConditions.visibilityOfElementLocated(songConfirmationText));

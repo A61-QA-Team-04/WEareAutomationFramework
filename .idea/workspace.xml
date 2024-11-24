@@ -31,7 +31,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CreateAPostTests.createAPost.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor": "Debug",
+    "JUnit.CreateAPostTests.createAPost_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Hristo",
@@ -61,6 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateAPostTests.createAPost_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
+      <option name="METHOD_NAME" value="createAPost_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateAPostTests.createAPost_with_song_upload_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
@@ -80,6 +97,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CreateAPostTests.createAPost_with_song_upload_Test" />
+        <item itemvalue="JUnit.CreateAPostTests.createAPost_Test" />
         <item itemvalue="JUnit.CreateAPostTests.createAPost" />
       </list>
     </recent_temporary>
@@ -102,22 +120,11 @@
       <updated>1732437281372</updated>
       <workItem from="1732437282438" duration="31000" />
       <workItem from="1732439113925" duration="258000" />
-      <workItem from="1732440313396" duration="6313000" />
+      <workItem from="1732440313396" duration="8509000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
