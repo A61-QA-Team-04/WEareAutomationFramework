@@ -56,10 +56,10 @@ public class RegisterPage extends BaseWeArePage {
         driverWait().until(ExpectedConditions.visibilityOfElementLocated(confirmPasswordField)).sendKeys(confirmPassword);
     }
     public void fillExistingUserDetails() {
-        String existingUsername = "existingUser"; // Replace with actual username
-        String existingEmail = "existing@example.com"; // Replace with actual email
-        String existingPassword = "Password123"; // Replace with actual password
-        String existingConfirmPassword = "Password123"; // Same as password for confirmation
+        String existingUsername = "validUser"; // Replace with actual username
+        String existingEmail = "vlvl@vlvl123.com"; // Replace with actual email
+        String existingPassword = "Vald!d!@#12*"; // Replace with actual password
+        String existingConfirmPassword = "Vald!d!@#12*"; // Same as password for confirmation
 
         fillAllFields(existingUsername, existingEmail, existingPassword, existingConfirmPassword);
     }
