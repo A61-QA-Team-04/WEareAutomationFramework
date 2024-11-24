@@ -14,13 +14,27 @@ import static wearetests.testdata.Users.*;
 
 public class CreateAPostTests extends BaseCreateAPost {
 
+    public static final String POST_TEXT = "A new testing post for the WEare social network.";
+    public static final String POST_TEXT_B = "Another testing post with a song uploaded.";
+
     @Test
-    public void createAPost() {
-        createAPostPage.createNewPost("Test1234");
-        createAPostPage.selectPostVisibility("Public post");
+    public void createAPost_Test() {
+        createAPostPage.createNewPost(POST_TEXT);
+        createAPostPage.selectPostVisibility("Private post");
         createAPostPage.clickSavePostButton();
 
         String postContent = createAPostPage.getPostText();
-        Assertions.assertTrue(postContent.contains("Test1234"), "Post content does not match expected value.");
+        Assertions.assertTrue(postContent.contains(POST_TEXT), "Post content does not match expected value.");
+    }
+
+    @Test
+    public void createAPost_with_song_upload_Test() {
+        createAPostPage.createNewPost(POST_TEXT_B);
+        createAPostPage.selectPostVisibility("Private post");
+        createAPostPage.clickChooseFileButton();
+        createAPostPage.clickSavePostButton();
+
+        String postContent = createAPostPage.getPostText();
+        Assertions.assertTrue(postContent.contains(POST_TEXT_B), "Post content does not match expected value.");
     }
 }
