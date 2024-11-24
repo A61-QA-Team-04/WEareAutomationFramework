@@ -19,6 +19,7 @@ private final By postVisibilityDropdown = By.id("StringListId");
 private final By postContentBox = By.id("message");
 private final By savePostButton = By.xpath("//input[@value='Save post']");
 private final By postConfirmationText = By.xpath("//p[text()='A new testing post for the WEare social network.']");
+private final By songConfirmationText = By.xpath("//p[text()='file_example_MP3_700KB.mp3']");
 private final By chooseFileButton = By.xpath("//*[@id=\"imagefile\"]");
 
 
@@ -37,8 +38,10 @@ public void clickSavePostButton() {
     driverWait().until(ExpectedConditions.visibilityOfElementLocated(savePostButton)).click();
 }
 
-    public void clickChooseFileButton() {
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(chooseFileButton)).click();
+    public void clickChooseFileButtonSong() {
+        WebElement until = driverWait().until(ExpectedConditions.visibilityOfElementLocated(chooseFileButton));
+        String filePath = "D:\\WEare\\Files\\file_example_MP3_700KB.mp3";
+        until.sendKeys(filePath);
     }
 
     public void addNewPost(String postContent) {
@@ -47,6 +50,11 @@ public void clickSavePostButton() {
 
     public String getPostText() {
         WebElement postText = driverWait().until(ExpectedConditions.visibilityOfElementLocated(postConfirmationText));
+        return postText.getText();
+    }
+
+    public String getSongName() {
+        WebElement postText = driverWait().until(ExpectedConditions.visibilityOfElementLocated(songConfirmationText));
         return postText.getText();
     }
 }

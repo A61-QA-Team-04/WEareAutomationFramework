@@ -16,6 +16,7 @@ public class CreateAPostTests extends BaseCreateAPost {
 
     public static final String POST_TEXT = "A new testing post for the WEare social network.";
     public static final String POST_TEXT_B = "Another testing post with a song uploaded.";
+    public static final String SONG_NAME = "file_example_MP3_700KB.mp3";
 
     @Test
     public void createAPost_Test() {
@@ -31,10 +32,10 @@ public class CreateAPostTests extends BaseCreateAPost {
     public void createAPost_with_song_upload_Test() {
         createAPostPage.createNewPost(POST_TEXT_B);
         createAPostPage.selectPostVisibility("Private post");
-        createAPostPage.clickChooseFileButton();
+        createAPostPage.clickChooseFileButtonSong();
         createAPostPage.clickSavePostButton();
 
-        String postContent = createAPostPage.getPostText();
-        Assertions.assertTrue(postContent.contains(POST_TEXT_B), "Post content does not match expected value.");
+        String postContent = createAPostPage.getSongName();
+        Assertions.assertTrue(postContent.contains(SONG_NAME), "Audio file is not uploaded.");
     }
 }

@@ -102,11 +102,22 @@
       <updated>1732437281372</updated>
       <workItem from="1732437282438" duration="31000" />
       <workItem from="1732439113925" duration="258000" />
-      <workItem from="1732440313396" duration="2702000" />
+      <workItem from="1732440313396" duration="6313000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
