@@ -33,20 +33,20 @@ private final String postConfirmationText = "//p[text()='%s']";
         return confirmationElement.getText().contains(postText);
     }
 
-public void selectPostVisibility(String postVisibility) {
-    WebElement visibilityOption = driverWait().until(ExpectedConditions.visibilityOfElementLocated(postVisibilityDropdown));
+    public void selectPostVisibility(String postVisibility) {
+        WebElement visibilityOption = driverWait().until(ExpectedConditions.visibilityOfElementLocated(postVisibilityDropdown));
 
-    Select select = new Select(visibilityOption);
-    select.selectByVisibleText(postVisibility);
-}
+        Select select = new Select(visibilityOption);
+        select.selectByVisibleText(postVisibility);
+    }
 
-public void createNewPost(String postContent) {
-    driverWait().until(ExpectedConditions.visibilityOfElementLocated(postContentBox)).sendKeys(postContent);
-}
+    public void createNewPost(String postContent) {
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(postContentBox)).sendKeys(postContent);
+    }
 
-public void clickSavePostButton() {
+    public void clickSavePostButton() {
     driverWait().until(ExpectedConditions.visibilityOfElementLocated(savePostButton)).click();
-}
+    }
 
     public void clickChooseFileButtonSong() {
         WebElement until = driverWait().until(ExpectedConditions.visibilityOfElementLocated(chooseFileButton));
@@ -56,7 +56,7 @@ public void clickSavePostButton() {
 
     public void addNewPost(String postContent) {
     createNewPost(postContent);
-}
+    }
 
     public String getSongName() {
         WebElement postText = driverWait().until(ExpectedConditions.visibilityOfElementLocated(songConfirmationText));
