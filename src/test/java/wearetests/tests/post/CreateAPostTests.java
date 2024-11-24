@@ -16,6 +16,8 @@ public class CreateAPostTests extends BaseCreateAPost {
 
     public static final String POST_TEXT = "A new testing post for the WEare social network.";
     public static final String POST_TEXT_B = "Another testing post with a song uploaded.";
+    public static final String POST_TEXT_C = "This is a testing post with a song uploaded.";
+    public static final String POST_TEXT_D = "This is a testing post with a video uploaded.";
     public static final String SONG_NAME = "file_example_MP3_700KB.mp3";
 
     @Test
@@ -28,13 +30,39 @@ public class CreateAPostTests extends BaseCreateAPost {
     }
 
     @Test
-    public void createAPost_with_song_upload_Test() {
+    public void createAPost_with_song_upload_less_1MB_Test() {
         createAPostPage.createNewPost(POST_TEXT_B);
         createAPostPage.selectPostVisibility("Private post");
-        createAPostPage.clickChooseFileButtonSong();
+        createAPostPage.clickChooseFileButtonSongLessThan1Mb();
         createAPostPage.clickSavePostButton();
 
         Assertions.assertTrue(createAPostPage.isPostConfirmationDisplayed(POST_TEXT_B),
+                "Post content does not match expected value.");
+        String postContent = createAPostPage.getSongName();
+        Assertions.assertTrue(postContent.contains(SONG_NAME), "Audio file is not uploaded.");
+    }
+
+    @Test
+    public void createAPost_with_song_upload_more_1MB_Test() {
+        createAPostPage.createNewPost(POST_TEXT_C);
+        createAPostPage.selectPostVisibility("Private post");
+        createAPostPage.clickChooseFileButtonSongMoreThan1Mb();
+        createAPostPage.clickSavePostButton();
+
+        Assertions.assertTrue(createAPostPage.isPostConfirmationDisplayed(POST_TEXT_C),
+                "Post content does not match expected value.");
+        String postContent = createAPostPage.getSongName();
+        Assertions.assertTrue(postContent.contains(SONG_NAME), "Audio file is not uploaded.");
+    }
+
+    @Test
+    public void createAPost_with_video_upload_less_1MB_Test() {
+        createAPostPage.createNewPost(POST_TEXT_D);
+        createAPostPage.selectPostVisibility("Private post");
+        createAPostPage.clickChooseFileButtonVideoLessThan1Mb();
+        createAPostPage.clickSavePostButton();
+
+        Assertions.assertTrue(createAPostPage.isPostConfirmationDisplayed(POST_TEXT_D),
                 "Post content does not match expected value.");
         String postContent = createAPostPage.getSongName();
         Assertions.assertTrue(postContent.contains(SONG_NAME), "Audio file is not uploaded.");

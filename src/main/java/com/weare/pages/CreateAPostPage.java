@@ -48,9 +48,21 @@ private final String postConfirmationText = "//p[text()='%s']";
     driverWait().until(ExpectedConditions.visibilityOfElementLocated(savePostButton)).click();
     }
 
-    public void clickChooseFileButtonSong() {
+    public void clickChooseFileButtonSongLessThan1Mb() {
         WebElement until = driverWait().until(ExpectedConditions.visibilityOfElementLocated(chooseFileButton));
         String filePath = "D:\\WEare\\Files\\file_example_MP3_700KB.mp3";
+        until.sendKeys(filePath);
+    }
+
+    public void clickChooseFileButtonSongMoreThan1Mb() {
+        WebElement until = driverWait().until(ExpectedConditions.visibilityOfElementLocated(chooseFileButton));
+        String filePath = "D:\\WEare\\Files\\file_example_MP3_2MG.mp3";
+        until.sendKeys(filePath);
+    }
+
+    public void clickChooseFileButtonVideoLessThan1Mb() {
+        WebElement until = driverWait().until(ExpectedConditions.visibilityOfElementLocated(chooseFileButton));
+        String filePath = "D:\\WEare\\Files\\file_example_AVI_640_800kB.avi";
         until.sendKeys(filePath);
     }
 
