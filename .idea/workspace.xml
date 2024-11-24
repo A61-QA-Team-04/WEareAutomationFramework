@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/CreateAPostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/CreateAPostPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/CreateAPostPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weare/pages/CreateAPostPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Hristo",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,7 +154,7 @@
       <updated>1732437281372</updated>
       <workItem from="1732437282438" duration="31000" />
       <workItem from="1732439113925" duration="258000" />
-      <workItem from="1732440313396" duration="10522000" />
+      <workItem from="1732440313396" duration="11665000" />
     </task>
     <servers />
   </component>

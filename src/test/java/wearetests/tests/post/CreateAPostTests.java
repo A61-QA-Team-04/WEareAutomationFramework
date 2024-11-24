@@ -18,6 +18,7 @@ public class CreateAPostTests extends BaseCreateAPost {
     public static final String POST_TEXT_B = "Another testing post with a song uploaded.";
     public static final String POST_TEXT_C = "This is a testing post with a song uploaded.";
     public static final String POST_TEXT_D = "This is a testing post with a video uploaded.";
+    public static final String POST_TEXT_E = " ";
     public static final String SONG_NAME = "file_example_MP3_700KB.mp3";
 
     @Test
@@ -60,6 +61,18 @@ public class CreateAPostTests extends BaseCreateAPost {
         createAPostPage.createNewPost(POST_TEXT_D);
         createAPostPage.selectPostVisibility("Private post");
         createAPostPage.clickChooseFileButtonVideoLessThan1Mb();
+        createAPostPage.clickSavePostButton();
+
+        Assertions.assertTrue(createAPostPage.isPostConfirmationDisplayed(POST_TEXT_D),
+                "Post content does not match expected value.");
+        String postContent = createAPostPage.getSongName();
+        Assertions.assertTrue(postContent.contains(SONG_NAME), "Audio file is not uploaded.");
+    }
+
+    @Test
+    public void createAPost_with_no_content_Test() {
+        createAPostPage.createNewPost(POST_TEXT_E);
+        createAPostPage.selectPostVisibility("Public post");
         createAPostPage.clickSavePostButton();
 
         Assertions.assertTrue(createAPostPage.isPostConfirmationDisplayed(POST_TEXT_D),
