@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" afterDir="false" />
-    </list>
+    <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,36 +21,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CommentTests.createAComment.executor": "Run",
-    "JUnit.CommentTests.createAComment_Test.executor": "Run",
-    "JUnit.CommentTests.createAComment_with_long_message_Test.executor": "Debug",
-    "JUnit.CommentTests.deleteAComment_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor": "Run",
-    "JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor": "Run",
-    "JUnit.LikePostTests.likePost_Test.executor": "Run",
-    "JUnit.LikePostTests.likePost_Then_DislikePost.executor": "Run",
-    "JUnit.Register_Tests.executor": "Run",
-    "JUnit.wearetests.tests in TelerikTestingFramework.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Hristo",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CommentTests.createAComment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommentTests.createAComment_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommentTests.createAComment_with_long_message_Test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CommentTests.deleteAComment_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LikePostTests.likePost_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LikePostTests.likePost_Then_DislikePost.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Register_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.wearetests.tests in TelerikTestingFramework.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Hristo&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test">
     <configuration name="CommentTests.createAComment_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
@@ -194,6 +189,7 @@
       <workItem from="1732439113925" duration="258000" />
       <workItem from="1732440313396" duration="12604000" />
       <workItem from="1732530934497" duration="10862000" />
+      <workItem from="1732544470746" duration="7000" />
     </task>
     <servers />
   </component>
