@@ -11,7 +11,8 @@ public class EditProfile extends BaseEdit {
     private String year = "1998";
     private String fullName = updatedFirstName + " " + updatedLastName;
     private String dayToCheck = year + "-" + day + "-" + month;
-private String updatedEmail="newMail@abv.bg";
+    private String updatedEmail="newMail@abv.bg";
+
     @Test
     public void update_FirstName_LastName_BirthDay_Test() {
         updateProfile(updatedFirstName, updatedLastName, day + month + year);

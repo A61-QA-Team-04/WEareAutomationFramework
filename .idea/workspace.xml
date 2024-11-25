@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/CommentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/CommentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/CommentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/CommentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,9 @@
     "JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor": "Run",
     "JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor": "Run",
     "JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor": "Run",
+    "JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor": "Run",
+    "JUnit.LikePostTests.likePost_Test.executor": "Run",
+    "JUnit.LikePostTests.likePost_Then_DislikePost.executor": "Run",
     "JUnit.Register_Tests.executor": "Run",
     "JUnit.wearetests.tests in TelerikTestingFramework.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -52,23 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CommentTests.createAComment_Test">
-    <configuration name="CommentTests.createAComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.comment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.comment" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.comment.CommentTests" />
-      <option name="METHOD_NAME" value="createAComment" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test">
     <configuration name="CommentTests.createAComment_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
@@ -80,22 +68,6 @@
       <option name="PACKAGE_NAME" value="wearetests.tests.comment" />
       <option name="MAIN_CLASS_NAME" value="wearetests.tests.comment.CommentTests" />
       <option name="METHOD_NAME" value="createAComment_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommentTests.createAComment_with_long_message_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelerikTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wearetests.tests.comment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.comment" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.comment.CommentTests" />
-      <option name="METHOD_NAME" value="createAComment_with_long_message_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,17 +89,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAPostTests.createAPost_with_video_upload_less_1MB_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EditProfile.update_FirstName_LastName_BirthDay_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.post.*" />
+          <option name="PATTERN" value="wearetests.tests.profile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
-      <option name="METHOD_NAME" value="createAPost_with_video_upload_less_1MB_Test" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.profile" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.profile.EditProfile" />
+      <option name="METHOD_NAME" value="update_FirstName_LastName_BirthDay_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LikePostTests.likePost_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.like.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.like" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.like.LikePostTests" />
+      <option name="METHOD_NAME" value="likePost_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LikePostTests.likePost_Then_DislikePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.like.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.like" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.like.LikePostTests" />
+      <option name="METHOD_NAME" value="likePost_Then_DislikePost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,19 +155,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.wearetests.tests in TelerikTestingFramework" />
-      <item itemvalue="JUnit.CommentTests.createAComment" />
       <item itemvalue="JUnit.CommentTests.createAComment_Test" />
-      <item itemvalue="JUnit.CommentTests.createAComment_with_long_message_Test" />
       <item itemvalue="JUnit.CommentTests.deleteAComment_Test" />
-      <item itemvalue="JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test" />
+      <item itemvalue="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test" />
+      <item itemvalue="JUnit.LikePostTests.likePost_Test" />
+      <item itemvalue="JUnit.LikePostTests.likePost_Then_DislikePost" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test" />
+        <item itemvalue="JUnit.LikePostTests.likePost_Then_DislikePost" />
+        <item itemvalue="JUnit.LikePostTests.likePost_Test" />
         <item itemvalue="JUnit.CommentTests.createAComment_Test" />
         <item itemvalue="JUnit.CommentTests.deleteAComment_Test" />
-        <item itemvalue="JUnit.CommentTests.createAComment_with_long_message_Test" />
-        <item itemvalue="JUnit.CommentTests.createAComment" />
-        <item itemvalue="JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +193,7 @@
       <workItem from="1732437282438" duration="31000" />
       <workItem from="1732439113925" duration="258000" />
       <workItem from="1732440313396" duration="12604000" />
-      <workItem from="1732530934497" duration="10358000" />
+      <workItem from="1732530934497" duration="10862000" />
     </task>
     <servers />
   </component>
