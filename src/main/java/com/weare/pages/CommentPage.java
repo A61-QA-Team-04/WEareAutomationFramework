@@ -12,7 +12,7 @@ public class CommentPage extends BaseWeArePage{
 
         private final By exploreThisPostButton = By.xpath("/html/body/section[1]/div/div/div[1]/div/div[1]/div/div[2]/p[3]/a[1]");
         private final By commentField = By.id("message");
-        private final By postCommentButton = By.xpath("//*[@input=\"Post Comment\"]/form/div[2]/input");
+        private final By postCommentButton = By.cssSelector("input[type='submit'][value='Post Comment']");
         private final By commentConfirmationText = By.xpath("//p[text()='Тестер']");
         private final By showCommentsButton = By.xpath("/html/body/section[1]/div/div/div[1]/div[3]/button");
         private final By deleteCommentButton = By.xpath("//*[@id=\"comments\"]/div[2]/p[2]/a[2]");
