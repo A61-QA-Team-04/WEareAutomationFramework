@@ -55,8 +55,31 @@ public class CommentTests extends BaseComment{
                 "testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest " +
                 "testtesttesttesttesttesttesttest");
         commentPage.clickPostCommentButton();
+        commentPage.clickShowCommentsButton();
 
         String commentContent = commentPage.getCommentText();
-        Assertions.assertTrue(commentContent.contains("A new comment is created"), "Post content does not match expected value.");
+        Assertions.assertTrue(commentContent.contains("testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest \" +\n" +
+                "                \"testtesttesttesttesttesttesttest"), "Post content does not match expected value.");
     }
 }

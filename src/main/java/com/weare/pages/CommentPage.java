@@ -19,6 +19,7 @@ public class CommentPage extends BaseWeArePage{
         private final By deleteOptionDropdown = By.id("StringListId");
         private final By submitButtonLocator = By.xpath("/html/body/section[1]/div/div/div/div/ul/div/form/div[2]/input");
         private final By deleteMesaggeConfirmation = By.xpath("//h1");
+        private final By editCommentButton = By.xpath("//*[@id=\"comments\"]/div[2]/p[2]/a[1]");
 
 
     public void clickExploreThisPostButton() {
@@ -31,6 +32,10 @@ public class CommentPage extends BaseWeArePage{
 
     public void clickDeleteCommentsButton() {
         driverWait().until(ExpectedConditions.visibilityOfElementLocated(deleteCommentButton)).click();
+    }
+
+    public void clickEditCommentButton() {
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(editCommentButton)).click();
     }
 
     public void selectDeleteOption(String deleteOption) {
