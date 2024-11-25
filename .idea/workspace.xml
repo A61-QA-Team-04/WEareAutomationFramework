@@ -25,39 +25,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CommentTests.createAComment.executor": "Run",
-    "JUnit.CommentTests.createAComment_Test.executor": "Run",
-    "JUnit.CommentTests.createAComment_with_long_message_Test.executor": "Debug",
-    "JUnit.CommentTests.deleteAComment_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor": "Run",
-    "JUnit.EditProfile.update_Email_Test.executor": "Run",
-    "JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor": "Run",
-    "JUnit.LikePostTests.likePost_Test.executor": "Run",
-    "JUnit.LikePostTests.likePost_Then_DislikePost.executor": "Run",
-    "JUnit.Register_Tests.executor": "Run",
-    "JUnit.SearchTests.search_for_users_Test.executor": "Run",
-    "JUnit.wearetests.tests in TelerikTestingFramework.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Hristo",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CommentTests.createAComment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommentTests.createAComment_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommentTests.createAComment_with_long_message_Test.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CommentTests.deleteAComment_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EditProfile.update_Email_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LikePostTests.likePost_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LikePostTests.likePost_Then_DislikePost.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Register_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTests.search_for_users_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.wearetests.tests in TelerikTestingFramework.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Hristo&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.SearchTests.search_for_users_Test">
+}</component>
+  <component name="RunManager" selected="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test">
     <configuration name="EditProfile.update_Email_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
@@ -164,9 +164,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test" />
         <item itemvalue="JUnit.SearchTests.search_for_users_Test" />
         <item itemvalue="JUnit.EditProfile.update_Email_Test" />
-        <item itemvalue="JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test" />
         <item itemvalue="JUnit.LikePostTests.likePost_Then_DislikePost" />
         <item itemvalue="JUnit.LikePostTests.likePost_Test" />
       </list>
@@ -197,6 +197,7 @@
       <workItem from="1732530934497" duration="10862000" />
       <workItem from="1732544470746" duration="7000" />
       <workItem from="1732544547476" duration="146000" />
+      <workItem from="1732558340142" duration="227000" />
     </task>
     <servers />
   </component>
