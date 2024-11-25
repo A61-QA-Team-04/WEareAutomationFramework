@@ -12,6 +12,7 @@ import testframework.ExtentTestWatcher;
 import testframework.PropertiesManager;
 import testframework.core.BaseWebTest;
 @ExtendWith(ExtentTestWatcher.class)
+
 public class WeAreBaseWeb extends BaseWebTest {
     protected RegisterPage registerPage;
     protected HomePage homePage;
@@ -22,6 +23,7 @@ public class WeAreBaseWeb extends BaseWebTest {
     public static void setupSuite() {
         ExtentManager.getExtentReports();
     }
+
     @BeforeEach
     public void setUp(TestInfo testInfo) {
             String testName = testInfo.getDisplayName();
@@ -30,9 +32,9 @@ public class WeAreBaseWeb extends BaseWebTest {
             ExtentManager.getTest().info("Starting test: " + testName);
 
             registerPage = new RegisterPage();
-        homePage = new HomePage();
-        loginPage = new LoginPage();
-        resultsPage = new ResultsPage();
+            homePage = new HomePage();
+            loginPage = new LoginPage();
+            resultsPage = new ResultsPage();
 
         ChromeOptions options = new ChromeOptions();
         driver().get(PropertiesManager.getConfigProperties().getProperty("weAreBaseUrl"));

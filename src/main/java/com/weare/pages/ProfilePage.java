@@ -14,7 +14,7 @@ public class ProfilePage extends BaseWeArePage {
     private final By FIRST_NAME_FIELD = By.id("nameE");
     private final By LAST_NAME_FIELD = By.id("lastnameE");
     private final By BIRTHDAY_FIELD = By.id("birthDayE");
-    private final By SUBMIT_BUTTON = By.xpath("//*[@id=\"profile-personal\"]/div/div/div[2]/div/form/div[9]/div/button");
+    private final By SUBMIT_BUTTON = By.xpath("//button[@name='submit']");
     private final By PROFILE_BUTTON = By.id("list-front-list");
     private final By WELCOME_NAME = By.xpath("//h1");
     private final By PERSONAL_INFO = By.id("home");

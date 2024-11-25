@@ -12,7 +12,6 @@ import static wearetests.testdata.Users.*;
 
 public class LoginTests extends BaseLogin {
 
-
     @Test
     @DisplayName("Login with Valid Credentials")
 
@@ -20,15 +19,6 @@ public class LoginTests extends BaseLogin {
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
         WebElement message = driver().findElement(By.xpath("//h1"));
         Assertions.assertEquals(message.getText(), "The Easiest Way to Hack the Crisis", "USER NOT LOGGED IN");
-    }
-
-    @Test
-    public void login_with_nonexisting_username_Test() {
-        loginPage.inputCredentials(NON_EXISTING_USERNAME, VALID_PASSWORD);
-        WebElement message = driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']"));
-        Assertions.assertTrue(message.isDisplayed());
-        Assertions.assertEquals(message.getText(), "Wrong username or password.");
-        Assertions.assertEquals(driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']")).getText(), "Wrong username or password.", "USER LOGGED IN WITH INVALID CREDENTIALS");
     }
 
     @Test

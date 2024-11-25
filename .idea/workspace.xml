@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="" />
+    <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,28 +16,24 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2pFGhqzxOg3QNKjVlX6Swu2tFNe" />
+  <component name="ProjectId" id="2pHyQclcntm4CC8HEuZd0I2jncg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.LoginTests.login_with_nonexisting_username_Test.executor": "Run",
-    "JUnit.RegisterTests.Random_Username_Test.executor": "Run",
-    "JUnit.RegisterTests.already_Existing_User_Test.executor": "Run",
-    "JUnit.RegisterTests.invalid_Email_Test.executor": "Run",
-    "JUnit.RegisterTests.passowrds_Not_Matching_Test.executor": "Run",
-    "JUnit.RegisterTests.password_less_than_8_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_capital_letter_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_digit_Test.executor": "Run",
-    "JUnit.RegisterTests.password_without_special_symbol_Test.executor": "Run",
-    "JUnit.RegisterTests.username_less_than_2_symbols_Test.executor": "Run",
-    "JUnit.RegisterTests.username_more_than_20_symbols_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Hristo",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,105 +42,94 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LoginTests.login_with_nonexisting_username_Test">
-    <configuration name="LoginTests.login_with_nonexisting_username_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test">
+    <configuration name="CreateAPostTests.createAPost_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.login.*" />
+          <option name="PATTERN" value="wearetests.tests.post.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.login" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.login.LoginTests" />
-      <option name="METHOD_NAME" value="login_with_nonexisting_username_Test" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
+      <option name="METHOD_NAME" value="createAPost_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.password_less_than_8_symbols_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAPostTests.createAPost_with_song_upload_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
+          <option name="PATTERN" value="wearetests.tests.post.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_less_than_8_symbols_Test" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
+      <option name="METHOD_NAME" value="createAPost_with_song_upload_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.password_without_capital_letter_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAPostTests.createAPost_with_song_upload_less_1MB_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
+          <option name="PATTERN" value="wearetests.tests.post.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_without_capital_letter_Test" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
+      <option name="METHOD_NAME" value="createAPost_with_song_upload_less_1MB_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.password_without_digit_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAPostTests.createAPost_with_song_upload_more_1MB_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
+          <option name="PATTERN" value="wearetests.tests.post.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_without_digit_Test" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
+      <option name="METHOD_NAME" value="createAPost_with_song_upload_more_1MB_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.password_without_special_symbol_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAPostTests.createAPost_with_video_upload_less_1MB_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wearetests.tests.register.*" />
+          <option name="PATTERN" value="wearetests.tests.post.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="wearetests.tests.register" />
-      <option name="MAIN_CLASS_NAME" value="wearetests.tests.register.RegisterTests" />
-      <option name="METHOD_NAME" value="password_without_special_symbol_Test" />
+      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
+      <option name="METHOD_NAME" value="createAPost_with_video_upload_less_1MB_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="WEareAutomationFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="WEareAutomationFramework" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTests.login_with_nonexisting_username_Test" />
-        <item itemvalue="JUnit.RegisterTests.password_without_special_symbol_Test" />
-        <item itemvalue="JUnit.RegisterTests.password_without_digit_Test" />
-        <item itemvalue="JUnit.RegisterTests.password_without_capital_letter_Test" />
-        <item itemvalue="JUnit.RegisterTests.password_less_than_8_symbols_Test" />
+        <item itemvalue="JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test" />
+        <item itemvalue="JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test" />
+        <item itemvalue="JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test" />
+        <item itemvalue="JUnit.CreateAPostTests.createAPost_with_song_upload_Test" />
+        <item itemvalue="JUnit.CreateAPostTests.createAPost_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -159,34 +144,18 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f293e9c-e9f6-4f32-81e1-09a92e26c08f" name="Changes" comment="" />
-      <created>1732354532085</created>
+      <changelist id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="" />
+      <created>1732437281372</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1732354532085</updated>
-      <workItem from="1732354533333" duration="82000" />
-      <workItem from="1732354748659" duration="4506000" />
-      <workItem from="1732394230577" duration="13000" />
-      <workItem from="1732394388511" duration="44000" />
-      <workItem from="1732395814917" duration="26000" />
-      <workItem from="1732395934169" duration="5000" />
-      <workItem from="1732396003990" duration="503000" />
-      <workItem from="1732530376916" duration="33000" />
+      <updated>1732437281372</updated>
+      <workItem from="1732437282438" duration="31000" />
+      <workItem from="1732439113925" duration="258000" />
+      <workItem from="1732440313396" duration="12604000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
