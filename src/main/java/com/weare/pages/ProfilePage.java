@@ -19,6 +19,13 @@ public class ProfilePage extends BaseWeArePage {
     private final By WELCOME_NAME = By.xpath("//h1");
     private final By PERSONAL_INFO = By.id("home");
     private final By EMAIL_FIELD = By.id("emailE");
+    private final By DROP_FEW_WORDS_FIELD = By.id("publicinfoE");
+    private final By ERROR_MESSAGE=By.xpath("//i");
+
+    public String getErrorMessage(){
+        WebElement message=driver().findElement(ERROR_MESSAGE);
+        return message.getText();
+    }
 
     public void updateEmail(String email) {
         clearAndType(EMAIL_FIELD, email);
@@ -28,6 +35,10 @@ public class ProfilePage extends BaseWeArePage {
         WebElement element = driverWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
         element.clear();
         element.sendKeys(value);
+    }
+
+    public void addAFewWordsAboutYourself(String description) {
+        clearAndType(DROP_FEW_WORDS_FIELD, description);
     }
 
     public String getInfo() {

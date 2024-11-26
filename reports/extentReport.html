@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 26, 2024 03:19:35 PM</span></a>
+<a href="#"><span class="badge badge-primary">Nov 26, 2024 03:40:37 PM</span></a>
 </li>
 </ul>
 </div>
@@ -71,6 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -79,25 +80,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">createAComment_with_long_message_Test()</p>
+            <p class="name">firstName_Blank_Test()</p>
             <p class="text-sm">
-              <span>3:19:35 PM</span> / <span>00:00:23:988</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>3:40:38 PM</span> / <span>00:00:08:766</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">createAComment_with_long_message_Test()</h5>
-<span class='badge badge-success'>11.26.2024 3:19:35 PM</span>
-<span class='badge badge-danger'>11.26.2024 3:19:59 PM</span>
-<span class='badge badge-default'>00:00:23:988</span>
+<h5 class="test-status text-pass">firstName_Blank_Test()</h5>
+<span class='badge badge-success'>11.26.2024 3:40:38 PM</span>
+<span class='badge badge-danger'>11.26.2024 3:40:47 PM</span>
+<span class='badge badge-default'>00:00:08:766</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -111,39 +112,92 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:19:35 PM</td>
+        <td>3:40:38 PM</td>
         <td>
-          Starting test: createAComment_with_long_message_Test()
+          Starting test: firstName_Blank_Test()
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>3:19:59 PM</td>
+        <td>3:40:46 PM</td>
+        <td>
+          Test Finished
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:40:47 PM</td>
+        <td>
+          Test passed: firstName_Blank_Test()
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">update_FirstName_LastName_BirthDay_Test()</p>
+            <p class="text-sm">
+              <span>3:40:47 PM</span> / <span>00:00:07:690</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">update_FirstName_LastName_BirthDay_Test()</h5>
+<span class='badge badge-success'>11.26.2024 3:40:47 PM</span>
+<span class='badge badge-danger'>11.26.2024 3:40:54 PM</span>
+<span class='badge badge-default'>00:00:07:690</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[]</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:40:47 PM</td>
+        <td>
+          Starting test: update_FirstName_LastName_BirthDay_Test()
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:40:54 PM</td>
         <td>
           Test Finished
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:19:59 PM</td>
+        <td>3:40:54 PM</td>
         <td>
-          Test failed: createAComment_with_long_message_Test()
+          Test failed: update_FirstName_LastName_BirthDay_Test()
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>3:19:59 PM</td>
+        <td>3:40:54 PM</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()='testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest testtesttesttesttesttesttesttest '] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\DELL-M~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59318}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59318/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: db2ebff348bdc8f966815b3912fa70c3
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.weare.pages.CommentPage.getCommentText(CommentPage.java:83)
-	at wearetests.tests.comment.CommentTests.createAComment_with_long_message_Test(CommentTests.java:38)
+          <textarea readonly class="code-block">org.opentest4j.AssertionFailedError: name not updated ==> expected: <Vladi Adam> but was: <Vladislav Adamov>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)
+	at wearetests.tests.profile.EditProfile.update_FirstName_LastName_BirthDay_Test(EditProfile.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
@@ -221,6 +275,257 @@ Session ID: db2ebff348bdc8f966815b3912fa70c3
 </div>
           </div>
         </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">update_Birthday_Test()</p>
+            <p class="text-sm">
+              <span>3:40:54 PM</span> / <span>00:00:06:776</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">update_Birthday_Test()</h5>
+<span class='badge badge-success'>11.26.2024 3:40:54 PM</span>
+<span class='badge badge-danger'>11.26.2024 3:41:01 PM</span>
+<span class='badge badge-default'>00:00:06:776</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[]</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:40:54 PM</td>
+        <td>
+          Starting test: update_Birthday_Test()
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:01 PM</td>
+        <td>
+          Test Finished
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:41:01 PM</td>
+        <td>
+          Test failed: update_Birthday_Test()
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:41:01 PM</td>
+        <td>
+          <textarea readonly class="code-block">org.opentest4j.AssertionFailedError: Birthday not updated ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:210)
+	at wearetests.tests.profile.EditProfile.update_Birthday_Test(EditProfile.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+</textarea>
+          
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">update_Email_Test()</p>
+            <p class="text-sm">
+              <span>3:41:01 PM</span> / <span>00:00:06:902</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">update_Email_Test()</h5>
+<span class='badge badge-success'>11.26.2024 3:41:01 PM</span>
+<span class='badge badge-danger'>11.26.2024 3:41:08 PM</span>
+<span class='badge badge-default'>00:00:06:902</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[]</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:01 PM</td>
+        <td>
+          Starting test: update_Email_Test()
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:08 PM</td>
+        <td>
+          Test Finished
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:41:08 PM</td>
+        <td>
+          Test passed: update_Email_Test()
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">add_aFew_Words_About_Yourself()</p>
+            <p class="text-sm">
+              <span>3:41:08 PM</span> / <span>00:00:07:182</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">add_aFew_Words_About_Yourself()</h5>
+<span class='badge badge-success'>11.26.2024 3:41:08 PM</span>
+<span class='badge badge-danger'>11.26.2024 3:41:15 PM</span>
+<span class='badge badge-default'>00:00:07:182</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">[]</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:08 PM</td>
+        <td>
+          Starting test: add_aFew_Words_About_Yourself()
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:15 PM</td>
+        <td>
+          Test Finished
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:41:15 PM</td>
+        <td>
+          Test passed: add_aFew_Words_About_Yourself()
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -241,15 +546,15 @@ Session ID: db2ebff348bdc8f966815b3912fa70c3
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">org.opentest4j.AssertionFailedError</p>
+<p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>org.opentest4j.AssertionFailedError</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -262,9 +567,16 @@ Session ID: db2ebff348bdc8f966815b3912fa70c3
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>15:19:35 PM</td>
+<td>15:40:47 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>createAComment_with_long_message_Test()</a>
+<a href="#" class="linked" test-id='2' id='2'>update_FirstName_LastName_BirthDay_Test()</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:40:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>update_Birthday_Test()</a>
 </td>
 </tr>
 </tbody>
@@ -284,25 +596,25 @@ Session ID: db2ebff348bdc8f966815b3912fa70c3
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 26, 2024 03:19:35 PM</h3>
+<h3>Nov 26, 2024 03:40:37 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 26, 2024 03:19:59 PM</h3>
+<h3>Nov 26, 2024 03:41:15 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -318,12 +630,12 @@ Session ID: db2ebff348bdc8f966815b3912fa70c3
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='60%'>
+<b>3</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> tests failed,
+<small data-tooltip='40%'><b>2</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -341,10 +653,10 @@ Session ID: db2ebff348bdc8f966815b3912fa70c3
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='17%'><b>3</b> events passed</small></div>
 <div>
-<small data-tooltip='50%'><b>2</b> events failed,
-<b data-tooltip='%'>2</b> others
+<small data-tooltip='23%'><b>4</b> events failed,
+<b data-tooltip='%'>10</b> others
 </small>
 </div>
 </div>
@@ -360,7 +672,7 @@ Session ID: db2ebff348bdc8f966815b3912fa70c3
 </div></div>
 <script>
 var timeline = {
-"createAComment_with_long_message_Test()":23.988
+"firstName_Blank_Test()":8.766,"update_FirstName_LastName_BirthDay_Test()":7.69,"update_Birthday_Test()":6.776,"update_Email_Test()":6.902,"add_aFew_Words_About_Yourself()":7.182
 };
 </script>
 <div class="row">
@@ -369,8 +681,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 1,
+passParent: 3,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -386,11 +698,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 2,
+passEvents: 3,
+failEvents: 4,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 2
+infoEvents: 10
 };
 </script>        </div>
       </div>
