@@ -19,11 +19,21 @@ public class BaseComment extends WeAreBaseWeb {
         homePage.clickSignInButton();
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
         homePage.clickLatestPostButton();
-
+        commentPage.clickExploreThisPostButton();
     }
 
-    public void createAComment() {
+    public void createComment(String comment) {
+        commentPage.createNewComment(comment);
+        commentPage.clickPostCommentButton();
+        commentPage.clickShowCommentsButton();
+
         driver().findElement(By.xpath("/html/body/section[1]/div/div/div[1]/div/div[1]/div/div[2]/p[3]/a[1]")).click();
 
+    }
+    public void deleteComment(){
+        commentPage.clickShowCommentsButton();
+        commentPage.clickDeleteCommentsButton();
+        commentPage.selectDeleteOption("Delete comment");
+        commentPage.clickSubmitButton();
     }
 }

@@ -10,24 +10,36 @@ public class CommentPage extends BaseWeArePage{
         super("/api/comment/auth/creator");
     }
 
-        private final By exploreThisPostButton = By.xpath("/html/body/section[1]/div/div/div[1]/div/div[1]/div/div[2]/p[3]/a[1]");
-        private final By commentField = By.id("message");
-        private final By postCommentButton = By.cssSelector("input[type='submit'][value='Post Comment']");
-        private final By commentConfirmationText = By.xpath("//p[text()='Тестер']");
-        private final By showCommentsButton = By.xpath("/html/body/section[1]/div/div/div[1]/div[3]/button");
-        private final By deleteCommentButton = By.xpath("//*[@id=\"comments\"]/div[2]/p[2]/a[2]");
-        private final By deleteOptionDropdown = By.id("StringListId");
-        private final By submitButtonLocator = By.xpath("/html/body/section[1]/div/div/div/div/ul/div/form/div[2]/input");
-        private final By deleteMesaggeConfirmation = By.xpath("//h1");
-        private final By editCommentButton = By.xpath("//*[@id=\"comments\"]/div[2]/p[2]/a[1]");
+    private final By exploreThisPostButton = By.xpath("/html/body/section[1]/div/div/div[1]/div/div[1]/div/div[2]/p[3]/a[1]");
+    private final By commentField = By.id("message");
+    private final By postCommentButton = By.xpath("//input[@value='Post Comment']");
+    private final String commentConfirmationText = "//p[text()='%s']";
+    private final By showCommentsButton = By.cssSelector("button.show-comments");
+    private final By deleteCommentButton = By.xpath("//*[@id=\"comments\"]/div[2]/p[2]/a[2]");
+    private final By deleteOptionDropdown = By.id("StringListId");
+    private final By submitButtonLocator = By.xpath("//input[@value='Submit']");
+    private final By deleteMessageConfirmation = By.xpath("//h1");
+    private final By editCommentButton = By.xpath("//*[@id=\"comments\"]/div[2]/p[2]/a[1]");
 
+    public boolean isCommentConfirmationDisplayed(String postText) {
+        WebElement confirmationElement = driverWait().until(
+                ExpectedConditions.visibilityOfElementLocated(getCommentConfirmationText(postText)));
+        return confirmationElement.getText().contains(postText);
+    }
+
+    public By getCommentConfirmationText(String comment) {
+        String dynamicXPath = String.format(commentConfirmationText, comment);
+        return By.xpath(dynamicXPath);
+    }
 
     public void clickExploreThisPostButton() {
         driverWait().until(ExpectedConditions.visibilityOfElementLocated(exploreThisPostButton)).click();
     }
 
     public void clickShowCommentsButton() {
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(showCommentsButton)).click();
+        driverWait().until(ExpectedConditions.visibilityOfElementLocated(showCommentsButton));
+        driver().scrollToElement(showCommentsButton);
+        driver().findElement(showCommentsButton).click();
     }
 
     public void clickDeleteCommentsButton() {
@@ -54,7 +66,12 @@ public class CommentPage extends BaseWeArePage{
     }
 
     public void clickPostCommentButton() {
-        driverWait().until(ExpectedConditions.visibilityOfElementLocated(postCommentButton));
+        WebElement button = driver().findElement(postCommentButton);
+        if (!button.isDisplayed()) {
+            System.out.println("Button is not visible.");
+            return;
+        }
+        driverWait().until(ExpectedConditions.elementToBeClickable(button)).click();
     }
 
     public void addNewComment(String commentContent) {
@@ -62,11 +79,12 @@ public class CommentPage extends BaseWeArePage{
         createNewComment(commentContent);
     }
 
-    public String getCommentText() {
-        return driverWait().until(ExpectedConditions.visibilityOfElementLocated(commentConfirmationText)).getText();
+    public String getCommentText(String comment) {
+        WebElement element = driverWait().until(ExpectedConditions.visibilityOfElementLocated(getCommentConfirmationText(comment)));
+        return element.getText();
     }
 
     public String getDeleteMesaggeText() {
-        return driverWait().until(ExpectedConditions.visibilityOfElementLocated(deleteMesaggeConfirmation)).getText();
+        return driverWait().until(ExpectedConditions.visibilityOfElementLocated(deleteMessageConfirmation)).getText();
     }
 }
