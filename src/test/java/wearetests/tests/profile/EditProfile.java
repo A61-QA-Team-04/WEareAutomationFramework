@@ -26,4 +26,6 @@ public class EditProfile extends BaseEdit {
         updateEmail(updatedEmail);
         Assertions.assertTrue(profilePage.getInfo().contains(updatedEmail), "Email not updated");
     }
+
+    
 }
