@@ -1,8 +1,5 @@
 package wearetests.tests.profile;
 
-
-import com.weare.pages.BaseWeArePage;
-import com.weare.pages.FeedsPage;
 import com.weare.pages.ProfilePage;
 import org.junit.jupiter.api.BeforeEach;
 import testframework.PropertiesManager;
