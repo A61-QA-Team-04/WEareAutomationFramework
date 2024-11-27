@@ -21,10 +21,4 @@ public class BaseLike extends WeAreBaseWeb {
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
         homePage.clickLatestPostButton();
     }
-
-    public void likePost() {
-        driver().findElement(By.id("submit-val65")).click();
-
-    }
-
 }

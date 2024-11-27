@@ -1,7 +1,11 @@
 package wearetests.tests.comment;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import static constants.CommentConstants.ERROR_COMMENT_NOT_DELETED;
+import static constants.CommentConstants.SUCCESS_COMMENT_DELETED;
 
 public class CommentTests extends BaseComment{
 
@@ -10,26 +14,38 @@ public class CommentTests extends BaseComment{
     String longComment = longText.repeat(66);
 
     @Test
+    @DisplayName("Create a Comment - Ensure Comment is Posted Successfully")
     public void createAComment_Test() {
-        //   createComment(comment);
         commentPage.createNewComment(comment);
         commentPage.clickPostCommentButton();
         commentPage.clickShowCommentsButton();
         Assertions.assertTrue(commentPage.isCommentConfirmationDisplayed(comment),
-                "Post content does not match expected value.");
+                ERROR_COMMENT_NOT_DELETED);
     }
 
     @Test
+    @DisplayName("Comment on Specific User - Ensure Comment is Displayed Correctly")
+    public void comment_on_specificUser_Test() {
+        feedsPage.getSpecificUser(2);
+        commentPage.createNewComment("asdadasdsa");
+        commentPage.clickPostCommentButton();
+        commentPage.clickShowCommentsButton();
+        Assertions.assertTrue(commentPage.isCommentConfirmationDisplayed("asdadasdsa"),
+                ERROR_COMMENT_NOT_DELETED);
+    }
+
+    @Test
+    @DisplayName("Delete a Comment - Ensure Comment is Deleted Successfully")
     public void deleteAComment_Test() {
         deleteComment();
         Assertions.assertEquals(commentPage.getDeleteMesaggeText(),
-                "Comment deleted successfully",
+                SUCCESS_COMMENT_DELETED,
                 "Comment is not deleted.");
     }
 
     @Test
+    @DisplayName("Create a Comment with Long Message - Ensure Long Comment is Posted Correctly")
     public void createAComment_with_long_message_Test() {
-        // createComment(longComment);
         commentPage.createNewComment(longComment);
         commentPage.clickPostCommentButton();
         commentPage.clickShowCommentsButton();

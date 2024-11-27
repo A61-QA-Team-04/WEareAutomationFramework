@@ -2,6 +2,7 @@ package wearetests.tests.comment;
 
 import com.weare.pages.CommentPage;
 import com.weare.pages.CreateAPostPage;
+import com.weare.pages.FeedsPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.By;
 import testframework.PropertiesManager;
@@ -11,9 +12,11 @@ import static wearetests.testdata.Users.*;
 
 public class BaseComment extends WeAreBaseWeb {
     protected CommentPage commentPage;
+    protected FeedsPage feedsPage;
 
     @BeforeEach
     public void setUp() {
+        feedsPage = new FeedsPage();
         commentPage = new CommentPage();
         driver().get(PropertiesManager.getConfigProperties().getProperty("weAreBaseUrl"));
         homePage.clickSignInButton();
