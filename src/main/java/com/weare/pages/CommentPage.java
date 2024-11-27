@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 public class CommentPage extends BaseWeArePage{
+
     public CommentPage() {
         super("/api/comment/auth/creator");
     }

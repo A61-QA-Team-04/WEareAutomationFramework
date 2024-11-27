@@ -19,7 +19,6 @@ public class BaseCreateAPost extends WeAreBaseWeb {
         homePage.clickSignInButton();
         loginPage.inputCredentials(VALID_USER, VALID_PASSWORD);
         homePage.clickAddNewPostButton();
-
     }
 
     public void createAPost() {
