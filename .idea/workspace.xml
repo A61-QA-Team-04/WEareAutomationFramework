@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/BaseRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/Test Plan rev.1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Test Plan rev.1.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hrihristov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/A61-QA-Team-04/WEareAutomationFramework.git",
+    "accountId": "f7e8a49c-c217-47f3-babc-46e9580d0f9e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -56,7 +68,7 @@
     "JUnit.wearetests.tests in TelerikTestingFramework.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Hristo",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare",
     "node.js.detected.package.eslint": "true",
@@ -205,6 +217,7 @@
       <workItem from="1732544547476" duration="146000" />
       <workItem from="1732558340142" duration="227000" />
       <workItem from="1732610270714" duration="21000" />
+      <workItem from="1732703987158" duration="971000" />
     </task>
     <servers />
   </component>
