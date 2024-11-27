@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/Test Plan rev.1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/Test Plan rev.1.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,18 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hrihristov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hrihristov&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/A61-QA-Team-04/WEareAutomationFramework.git",
-    "accountId": "f7e8a49c-c217-47f3-babc-46e9580d0f9e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/A61-QA-Team-04/WEareAutomationFramework.git&quot;,
+    &quot;accountId&quot;: &quot;f7e8a49c-c217-47f3-babc-46e9580d0f9e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -43,42 +40,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CommentTests.createAComment.executor": "Run",
-    "JUnit.CommentTests.createAComment_Test.executor": "Run",
-    "JUnit.CommentTests.createAComment_with_long_message_Test.executor": "Run",
-    "JUnit.CommentTests.deleteAComment_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor": "Run",
-    "JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor": "Run",
-    "JUnit.CreateAPostTests.executor": "Run",
-    "JUnit.EditProfile.executor": "Run",
-    "JUnit.EditProfile.update_Email_Test.executor": "Run",
-    "JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor": "Run",
-    "JUnit.LikePostTests.likePost_Test.executor": "Run",
-    "JUnit.LikePostTests.likePost_Then_DislikePost.executor": "Run",
-    "JUnit.LoginTests.executor": "Run",
-    "JUnit.Register_Tests.executor": "Run",
-    "JUnit.SearchTests.search_for_users_Test.executor": "Run",
-    "JUnit.WeAreBaseWeb.executor": "Run",
-    "JUnit.wearetests.tests in TelerikTestingFramework.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CommentTests.createAComment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommentTests.createAComment_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommentTests.createAComment_with_long_message_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CommentTests.deleteAComment_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateAPostTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EditProfile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EditProfile.update_Email_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LikePostTests.likePost_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LikePostTests.likePost_Then_DislikePost.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LoginTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Register_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchTests.search_for_users_Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeAreBaseWeb.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.wearetests.tests in TelerikTestingFramework.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Telerik/Alpha61QA/2024.10.17 Final Project/WEare&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.WeAreBaseWeb">
     <configuration name="CreateAPostTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelerikTestingFramework" />
