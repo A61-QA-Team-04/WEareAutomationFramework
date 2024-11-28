@@ -25,3 +25,9 @@ The `test` folder is where test classes would be placed, following a similar pac
 ## Usage
 
 This framework supports both API and Web testing, with a focus on providing base classes and utilities for test creation and execution. Developers can extend the base classes and utilize the provided enums and managers to create robust and maintainable automated tests.
+
+**Prerequisites:**
+
+Docker
+Locally hosted app
+A registered user of the app and account with appropriate permissions 
