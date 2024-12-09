@@ -5,35 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Documents/HighLevelTestCases-FinalProject.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/Jira Reports/JiraBugs.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/Jira Reports/JiraPieChartIssueType.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/Jira Reports/JiraPieChartLabels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/Jira Reports/Test Runs Report 22-11-24 18_12_18.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/Jira Reports/~$raBugs.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documents/[WEare] Required Prerequisites To Run The Tests.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/CommentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/CreateAPostPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/constants/CommentConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/constants/LoginConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/constants/PostConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/constants/ProfileConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/constants/RegisterConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/constants/SearchConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/anonimoususer/AnonymousUserAccessibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/BaseComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/CommentTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/BaseCreateAPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/BaseRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/CommentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/CommentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/BaseWeArePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/BaseWeArePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/FeedsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/FeedsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/ResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/BaseComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/BaseComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/CommentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/CommentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testframework/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testframework/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testframework/ExtentTestWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testframework/ExtentTestWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/core/WeAreBaseWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/testdata/UserAgentProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/testdata/UserAgentProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/testdata/Users.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/BaseLike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/BaseLike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/LikePostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/LikePostTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/BaseCreateAPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/BaseCreateAPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/BaseEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/BaseEdit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/BaseRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/BaseRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/BaseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/BaseSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/profile/EditProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/profile/EditProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/BaseWeArePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/FeedsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/ProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/RegisterPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weare/pages/ResultsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/DriverManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/ExtentTestWatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/PropertiesManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/core/BaseApiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/core/BaseApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/core/BaseWebPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/core/BaseWebTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/enums/BrowserMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/enums/BrowserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testframework/enums/FrameworkSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/core/WeAreBaseWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/UserAgentProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/testdata/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/like/BaseLike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/like/LikePostTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/BaseLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/profile/BaseEdit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/profile/EditProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/search/BaseSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/search/SearchTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +102,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hrihristov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/A61-QA-Team-04/WEareAutomationFramework.git",
+    "accountId": "f7e8a49c-c217-47f3-babc-46e9580d0f9e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -85,7 +149,7 @@
     "JUnit.wearetests.tests in TelerikTestingFramework.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Hristo",
+    "git-widget-placeholder": "Merging Hristo",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/Freimwork/main/WEareAutomationFramework/src/main/java",
     "node.js.detected.package.eslint": "true",
