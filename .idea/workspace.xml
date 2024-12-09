@@ -4,34 +4,217 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3448e049-996b-460c-b327-b2f8e0a5729d" name="Changes" comment="" />
+    <list default="true" id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/CommentConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/LoginConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/PostConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/ProfileConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/RegisterConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constants/SearchConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/output.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/extentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/CommentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/CommentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/FeedsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/FeedsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weare/pages/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weare/pages/ResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/BaseComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/BaseComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/CommentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/comment/CommentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/BaseLike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/BaseLike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/LikePostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/like/LikePostTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/BaseLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/login/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/BaseCreateAPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/BaseCreateAPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/post/CreateAPostTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/BaseEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/BaseEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/profile/EditProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/BaseRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/BaseRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/register/RegisterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/BaseSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/BaseSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wearetests/tests/search/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/login/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/profile/EditProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/profile/EditProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/wearetests/tests/register/RegisterTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2pHtD7dAXINdTcIkyhsR8XLq4O1" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pHyQclcntm4CC8HEuZd0I2jncg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CommentTests.createAComment.executor": "Run",
+    "JUnit.CommentTests.createAComment_Test.executor": "Run",
+    "JUnit.CommentTests.createAComment_with_long_message_Test.executor": "Run",
+    "JUnit.CommentTests.deleteAComment_Test.executor": "Run",
+    "JUnit.CommentTests.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_song_upload_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_song_upload_less_1MB_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_song_upload_more_1MB_Test.executor": "Run",
+    "JUnit.CreateAPostTests.createAPost_with_video_upload_less_1MB_Test.executor": "Run",
+    "JUnit.CreateAPostTests.executor": "Run",
+    "JUnit.EditProfile.executor": "Run",
+    "JUnit.EditProfile.update_Email_Test.executor": "Run",
+    "JUnit.EditProfile.update_FirstName_LastName_BirthDay_Test.executor": "Run",
+    "JUnit.LikePostTests.likePost_Test.executor": "Run",
+    "JUnit.LikePostTests.likePost_Then_DislikePost.executor": "Run",
+    "JUnit.LikePostTests.like_Button_Test.executor": "Run",
+    "JUnit.LoginTests.executor": "Run",
+    "JUnit.Register_Tests.executor": "Run",
+    "JUnit.SearchTests.search_for_users_Test.executor": "Run",
+    "JUnit.WeAreBaseWeb.executor": "Run",
+    "JUnit.wearetests.tests in TelerikTestingFramework.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Hristo",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Telerik/Alpha61QA/2024.10.17 Final Project/Freimwork/main/WEareAutomationFramework/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Telerik\Alpha61QA\2024.10.17 Final Project\Freimwork\main\WEareAutomationFramework\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.wearetests.tests in TelerikTestingFramework">
+    <configuration name="CommentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.comment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.comment" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.comment.CommentTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateAPostTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.post" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.post.CreateAPostTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LikePostTests.like_Button_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.like.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.like" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.like.LikePostTests" />
+      <option name="METHOD_NAME" value="like_Button_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests.login" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.tests.login.LoginTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeAreBaseWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.core" />
+      <option name="MAIN_CLASS_NAME" value="wearetests.core.WeAreBaseWeb" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wearetests.tests in TelerikTestingFramework" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="TelerikTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wearetests.tests.post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wearetests.tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.wearetests.tests in TelerikTestingFramework" />
+      <item itemvalue="JUnit.CommentTests" />
+      <item itemvalue="JUnit.LikePostTests.like_Button_Test" />
+      <item itemvalue="JUnit.CreateAPostTests" />
+      <item itemvalue="JUnit.LoginTests" />
+      <item itemvalue="JUnit.WeAreBaseWeb" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeAreBaseWeb" />
+        <item itemvalue="JUnit.CreateAPostTests" />
+        <item itemvalue="JUnit.LoginTests" />
+        <item itemvalue="JUnit.LikePostTests.like_Button_Test" />
+        <item itemvalue="JUnit.CommentTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="http://localhost:8081/comments/manager/102" />
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,8 +226,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="67dbad2b-51bd-421d-ae5d-cc0511fa4ab6" name="Changes" comment="" />
+      <created>1732437281372</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+      <updated>1732437281372</updated>
+      <workItem from="1732437282438" duration="31000" />
+      <workItem from="1732439113925" duration="258000" />
+      <workItem from="1732440313396" duration="12604000" />
+      <workItem from="1732530934497" duration="10862000" />
+      <workItem from="1732544470746" duration="7000" />
+      <workItem from="1732544547476" duration="146000" />
+      <workItem from="1732558340142" duration="227000" />
+      <workItem from="1732610270714" duration="21000" />
+      <workItem from="1732690326300" duration="3501000" />
     </task>
     <servers />
   </component>

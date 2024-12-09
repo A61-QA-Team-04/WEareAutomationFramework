@@ -9,6 +9,17 @@ import wearetests.core.WeAreBaseWeb;
 import static testframework.DriverManager.getDriver;
 
 public class BaseLogin extends WeAreBaseWeb {
+
+    public String getHeaderText() {
+        WebElement header = driver().findElement(By.xpath("//h1"));
+        return header.getText();
+    }
+
+    public String getErrorMessageText() {
+        WebElement errorMessage = driver().findElement(By.xpath("//i[text()=' Wrong username or password. ']"));
+        return errorMessage.getText();
+    }
+
     public boolean isElementVisible(By locator) {
         try {
             WebElement element = driver().findElement(locator);
@@ -23,6 +34,5 @@ public class BaseLogin extends WeAreBaseWeb {
         homePage.clickSignInButton();
 
     }
-
 
 }
